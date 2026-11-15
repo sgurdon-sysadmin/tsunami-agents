@@ -148,12 +148,18 @@
                   "type": "number",
                   "minimum": 0,
                   "maximum": 6
+                },
+                "why": {
+                  "type": "string",
+                  "minLength": 10,
+                  "description": "Why this player gains volume and why this many points"
                 }
               },
               "required": [
                 "player_name",
                 "role",
-                "boost_points"
+                "boost_points",
+                "why"
               ],
               "additionalProperties": false
             }

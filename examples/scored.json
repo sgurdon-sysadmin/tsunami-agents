@@ -1,10 +1,168 @@
 {
   "run_id": "nfl_2026-11-12_thursday",
   "sport": "nfl",
-  "built_at": "2026-11-12T19:40:00-05:00",
+  "built_at": "2026-11-15T12:22:11-05:00",
   "bets": [
     {
       "bet_id": "b001",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "anytime_td",
+      "player_id": "00-0040715",
+      "subject": "Cam Skattebo",
+      "team": "NYG",
+      "opp": "WAS",
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "book": "fanduel",
+      "price": 130,
+      "best_price": {
+        "book": "fanduel",
+        "price": 130
+      },
+      "other_side_price": null,
+      "base_pct": 0.369,
+      "hit_method": "model",
+      "method_detail": "dimers 36.9% | TD model: team 21.0 pts \u2192 2.30 TDs; 24% of RZ chances, 8% of targets (last 5); matchup \u00d70.92; finishing \u00d71.23; \u03bb=0.50 \u2192 39.5%",
+      "adjustments": [
+        {
+          "type": "research",
+          "points": 2,
+          "reason": "Red-zone leader: 38% of team's carries inside the 20 (last 5)"
+        }
+      ],
+      "hit_pct": 0.389,
+      "implied_pct": 0.4348,
+      "edge": -4.6,
+      "hit_freq": {
+        "hits": 1,
+        "games": 5,
+        "expected": 2.2,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 130
+      },
+      "model_check": 0.3954,
+      "support": [
+        "Model (dimers)",
+        "Red-zone leader",
+        "Similar RBs vs WAS: 3/5 with 3+ RZ chances scored"
+      ],
+      "flags": [
+        "model label unconfirmed (anytime vs first TD)"
+      ]
+    },
+    {
+      "bet_id": "b002",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "anytime_td",
+      "player_id": "00-0037256",
+      "subject": "Rachaad White",
+      "team": "WAS",
+      "opp": "NYG",
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "book": "fanduel",
+      "price": 175,
+      "best_price": {
+        "book": "fanduel",
+        "price": 175
+      },
+      "other_side_price": null,
+      "base_pct": 0.302,
+      "hit_method": "model",
+      "method_detail": "dimers 30.2% | TD model: team 19.5 pts \u2192 2.13 TDs; 21% of RZ chances, 9% of targets (last 5); matchup \u00d70.99; finishing \u00d71.08; \u03bb=0.38 \u2192 31.9%",
+      "adjustments": [],
+      "hit_pct": 0.302,
+      "implied_pct": 0.3636,
+      "edge": -6.2,
+      "hit_freq": {
+        "hits": 3,
+        "games": 5,
+        "expected": 1.8,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 175
+      },
+      "model_check": 0.3192,
+      "support": [
+        "Model (dimers)",
+        "Similar RBs vs NYG: 2/4 with 3+ RZ chances scored"
+      ],
+      "flags": [
+        "model label unconfirmed (anytime vs first TD)"
+      ]
+    },
+    {
+      "bet_id": "b003",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "anytime_td",
+      "player_id": "00-0039337",
+      "subject": "Malik Nabers",
+      "team": "NYG",
+      "opp": "WAS",
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "book": "fanduel",
+      "price": 175,
+      "best_price": {
+        "book": "fanduel",
+        "price": 175
+      },
+      "other_side_price": null,
+      "base_pct": 0.338,
+      "hit_method": "model",
+      "method_detail": "dimers 33.8% | TD model: team 21.0 pts \u2192 2.30 TDs; 18% of RZ chances, 33% of targets (last 5); matchup \u00d71.07; finishing \u00d70.70; \u03bb=0.32 \u2192 27.2%",
+      "adjustments": [
+        {
+          "type": "research",
+          "points": 2,
+          "reason": "Red-zone leader: 33% of team's targets inside the 20 (last 5)"
+        },
+        {
+          "type": "research",
+          "points": 1,
+          "reason": "WAS allows the #9 most TDs to WRs (1.0/gm)"
+        }
+      ],
+      "hit_pct": 0.368,
+      "implied_pct": 0.3636,
+      "edge": 0.4,
+      "hit_freq": {
+        "hits": 2,
+        "games": 5,
+        "expected": 1.8,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 175
+      },
+      "model_check": 0.2716,
+      "support": [
+        "Defense matchup",
+        "Model (dimers)",
+        "Red-zone leader",
+        "Similar WRs vs WAS: 2/2 with 3+ RZ chances scored"
+      ],
+      "flags": [
+        "model label unconfirmed (anytime vs first TD)"
+      ]
+    },
+    {
+      "bet_id": "b004",
       "game_id": "2026_10_WAS_NYG",
       "section": "anytime_td",
       "player_id": "00-0037838",
@@ -14,45 +172,2004 @@
       "market": "player_anytime_td",
       "side": "yes",
       "line": null,
-      "book": "draftkings",
-      "price": 205,
+      "book": "fanduel",
+      "price": 200,
       "best_price": {
-        "book": "betmgm",
-        "price": 210
+        "book": "fanduel",
+        "price": 200
       },
       "other_side_price": null,
       "base_pct": 0.332,
       "hit_method": "model",
-      "method_detail": "Dimers 33.2% (label unconfirmed)",
+      "method_detail": "dimers 33.2% | TD model: team 21.0 pts \u2192 2.30 TDs; 18% of RZ chances, 26% of targets (last 5); matchup \u00d71.56; finishing \u00d71.09; \u03bb=0.68 \u2192 49.1%",
       "adjustments": [
         {
           "type": "research",
-          "points": 4,
-          "reason": "WAS allows 2nd-most TE TDs; 4/8 NYG inside-5 targets"
+          "points": 2,
+          "reason": "Red-zone leader: 33% of team's targets inside the 20 (last 5)"
+        },
+        {
+          "type": "research",
+          "points": 2,
+          "reason": "WAS allows the #2 most TDs to TEs (1.0/gm)"
         }
       ],
       "hit_pct": 0.372,
-      "implied_pct": 0.328,
-      "edge": 4.4,
+      "implied_pct": 0.3333,
+      "edge": 3.9,
       "hit_freq": {
-        "hits": 5,
-        "games": 20,
-        "expected": 6.6,
+        "hits": 3,
+        "games": 5,
+        "expected": 1.7,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 200
+      },
+      "model_check": 0.4911,
+      "support": [
+        "Defense matchup",
+        "Model (dimers)",
+        "Red-zone leader",
+        "Similar TEs vs WAS: 1/2 with 3+ RZ chances scored"
+      ],
+      "flags": [
+        "model label unconfirmed (anytime vs first TD)",
+        "TD model (49%) and published model (33%) disagree by 10+ points"
+      ]
+    },
+    {
+      "bet_id": "b005",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "anytime_td",
+      "player_id": "00-0031588",
+      "subject": "Stefon Diggs",
+      "team": "WAS",
+      "opp": "NYG",
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "book": "fanduel",
+      "price": 230,
+      "best_price": {
+        "book": "fanduel",
+        "price": 230
+      },
+      "other_side_price": null,
+      "base_pct": 0.284,
+      "hit_method": "model",
+      "method_detail": "dimers 28.4% | TD model: team 19.5 pts \u2192 2.13 TDs; 8% of RZ chances, 21% of targets (last 5); matchup \u00d71.14; finishing \u00d71.40; \u03bb=0.30 \u2192 26.3%",
+      "adjustments": [
+        {
+          "type": "research",
+          "points": 1,
+          "reason": "NYG allows the #6 most TDs to WRs (1.125/gm)"
+        },
+        {
+          "type": "injury",
+          "points": 2,
+          "reason": "\ud83d\udd3a Terry McLaurin out: Already leads WAS in red-zone targets; McLaurin's 4 RZ targets move mostly to him"
+        }
+      ],
+      "hit_pct": 0.314,
+      "implied_pct": 0.303,
+      "edge": 1.1,
+      "hit_freq": {
+        "hits": 2,
+        "games": 5,
+        "expected": 1.5,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 230
+      },
+      "model_check": 0.2627,
+      "support": [
+        "Defense matchup",
+        "Injury boost",
+        "Model (dimers)",
+        "Similar WRs vs NYG: 2/3 with 3+ RZ chances scored"
+      ],
+      "flags": [
+        "model label unconfirmed (anytime vs first TD)"
+      ]
+    },
+    {
+      "bet_id": "b006",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "anytime_td",
+      "player_id": "00-0039910",
+      "subject": "Jayden Daniels",
+      "team": "WAS",
+      "opp": "NYG",
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "book": "fanduel",
+      "price": 270,
+      "best_price": {
+        "book": "fanduel",
+        "price": 270
+      },
+      "other_side_price": null,
+      "base_pct": 0.242,
+      "hit_method": "model",
+      "method_detail": "dimers 24.2% | TD model: team 19.5 pts \u2192 2.13 TDs; 12% of RZ chances, 0% of targets (last 5); matchup \u00d71.57; finishing \u00d70.85; \u03bb=0.27 \u2192 23.3%",
+      "adjustments": [
+        {
+          "type": "research",
+          "points": 2,
+          "reason": "NYG allows the #2 most TDs to QBs (0.375/gm)"
+        }
+      ],
+      "hit_pct": 0.262,
+      "implied_pct": 0.2703,
+      "edge": -0.8,
+      "hit_freq": {
+        "hits": 1,
+        "games": 5,
+        "expected": 1.4,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 270
+      },
+      "model_check": 0.2329,
+      "support": [
+        "Defense matchup",
+        "Model (dimers)"
+      ],
+      "flags": [
+        "model label unconfirmed (anytime vs first TD)"
+      ]
+    },
+    {
+      "bet_id": "b007",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "anytime_td",
+      "player_id": "00-0035250",
+      "subject": "Devin Singletary",
+      "team": "NYG",
+      "opp": "WAS",
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "book": "fanduel",
+      "price": 280,
+      "best_price": {
+        "book": "fanduel",
+        "price": 280
+      },
+      "other_side_price": null,
+      "base_pct": 0.2429,
+      "hit_method": "estimate",
+      "method_detail": "ESTIMATE: 50% book (26.3%) + 50% TD model: team 21.0 pts \u2192 2.30 TDs; 14% of RZ chances, 8% of targets (last 5); matchup \u00d70.92; finishing \u00d71.05; \u03bb=0.25 \u2192 22.3%",
+      "adjustments": [],
+      "hit_pct": 0.2429,
+      "implied_pct": 0.2632,
+      "edge": -2.0,
+      "hit_freq": {
+        "hits": 2,
+        "games": 5,
+        "expected": 1.3,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 280
+      },
+      "model_check": 0.2226,
+      "support": [
+        "Similar RBs vs WAS: 3/5 with 3+ RZ chances scored"
+      ],
+      "flags": []
+    },
+    {
+      "bet_id": "b008",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "anytime_td",
+      "player_id": "00-0033699",
+      "subject": "Austin Ekeler",
+      "team": "WAS",
+      "opp": "NYG",
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "book": "fanduel",
+      "price": 330,
+      "best_price": {
+        "book": "fanduel",
+        "price": 330
+      },
+      "other_side_price": null,
+      "base_pct": 0.2584,
+      "hit_method": "estimate",
+      "method_detail": "ESTIMATE: 50% book (23.3%) + 50% TD model: team 19.5 pts \u2192 2.13 TDs; 20% of RZ chances, 5% of targets (last 5); matchup \u00d70.99; finishing \u00d71.00; \u03bb=0.33 \u2192 28.4%",
+      "adjustments": [],
+      "hit_pct": 0.2584,
+      "implied_pct": 0.2326,
+      "edge": 2.6,
+      "hit_freq": {
+        "hits": 0,
+        "games": 5,
+        "expected": 1.2,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 330
+      },
+      "model_check": 0.2842,
+      "support": [
+        "Similar RBs vs NYG: 2/4 with 3+ RZ chances scored"
+      ],
+      "flags": []
+    },
+    {
+      "bet_id": "b009",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "anytime_td",
+      "player_id": "00-0037742",
+      "subject": "Treylon Burks",
+      "team": "WAS",
+      "opp": "NYG",
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "book": "fanduel",
+      "price": 340,
+      "best_price": {
+        "book": "fanduel",
+        "price": 340
+      },
+      "other_side_price": null,
+      "base_pct": 0.2155,
+      "hit_method": "estimate",
+      "method_detail": "ESTIMATE: 50% book (22.7%) + 50% TD model: team 19.5 pts \u2192 2.13 TDs; 10% of RZ chances, 14% of targets (last 5); matchup \u00d71.14; finishing \u00d71.00; \u03bb=0.23 \u2192 20.4%",
+      "adjustments": [],
+      "hit_pct": 0.2155,
+      "implied_pct": 0.2273,
+      "edge": -1.2,
+      "hit_freq": {
+        "hits": 2,
+        "games": 5,
+        "expected": 1.1,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 340
+      },
+      "model_check": 0.2038,
+      "support": [
+        "Similar WRs vs NYG: 2/3 with 3+ RZ chances scored"
+      ],
+      "flags": []
+    },
+    {
+      "bet_id": "b010",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "anytime_td",
+      "player_id": "00-0037809",
+      "subject": "Chig Okonkwo",
+      "team": "WAS",
+      "opp": "NYG",
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "book": "fanduel",
+      "price": 370,
+      "best_price": {
+        "book": "fanduel",
+        "price": 370
+      },
+      "other_side_price": null,
+      "base_pct": 0.1507,
+      "hit_method": "estimate",
+      "method_detail": "ESTIMATE: 50% book (21.3%) + 50% TD model: team 19.5 pts \u2192 2.13 TDs; 4% of RZ chances, 18% of targets (last 5); matchup \u00d70.77; finishing \u00d71.00; \u03bb=0.09 \u2192 8.9%",
+      "adjustments": [],
+      "hit_pct": 0.1507,
+      "implied_pct": 0.2128,
+      "edge": -6.2,
+      "hit_freq": {
+        "hits": 0,
+        "games": 5,
+        "expected": 1.1,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 370
+      },
+      "model_check": 0.0887,
+      "support": [],
+      "flags": []
+    },
+    {
+      "bet_id": "b011",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "anytime_td",
+      "player_id": "00-0041040",
+      "subject": "Antonio Williams",
+      "team": "WAS",
+      "opp": "NYG",
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "book": "fanduel",
+      "price": 400,
+      "best_price": {
+        "book": "fanduel",
+        "price": 400
+      },
+      "other_side_price": null,
+      "base_pct": 0.1317,
+      "hit_method": "estimate",
+      "method_detail": "ESTIMATE: 50% book (20.0%) + 50% TD model: team 19.5 pts \u2192 2.13 TDs; 0% of RZ chances, 18% of targets (last 5); matchup \u00d71.14; finishing \u00d71.00; \u03bb=0.07 \u2192 6.3%",
+      "adjustments": [
+        {
+          "type": "injury",
+          "points": 1,
+          "reason": "\ud83d\udd3a Terry McLaurin out: 83-84% snaps the last 2 games as the new WR2"
+        }
+      ],
+      "hit_pct": 0.1417,
+      "implied_pct": 0.2,
+      "edge": -5.8,
+      "hit_freq": {
+        "hits": 0,
+        "games": 5,
+        "expected": 1.0,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 400
+      },
+      "model_check": 0.0634,
+      "support": [
+        "Injury boost",
+        "Similar WRs vs NYG: 2/3 with 3+ RZ chances scored"
+      ],
+      "flags": []
+    },
+    {
+      "bet_id": "b012",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "anytime_td",
+      "player_id": "00-0041042",
+      "subject": "Malachi Fields",
+      "team": "NYG",
+      "opp": "WAS",
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "book": "fanduel",
+      "price": 470,
+      "best_price": {
+        "book": "fanduel",
+        "price": 470
+      },
+      "other_side_price": null,
+      "base_pct": 0.1933,
+      "hit_method": "estimate",
+      "method_detail": "ESTIMATE: 50% book (17.5%) + 50% TD model: team 21.0 pts \u2192 2.30 TDs; 10% of RZ chances, 13% of targets (last 5); matchup \u00d71.07; finishing \u00d71.00; \u03bb=0.24 \u2192 21.1%",
+      "adjustments": [],
+      "hit_pct": 0.1933,
+      "implied_pct": 0.1754,
+      "edge": 1.8,
+      "hit_freq": {
+        "hits": 1,
+        "games": 5,
+        "expected": 0.9,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 470
+      },
+      "model_check": 0.2111,
+      "support": [
+        "Similar WRs vs WAS: 2/2 with 3+ RZ chances scored"
+      ],
+      "flags": []
+    },
+    {
+      "bet_id": "b013",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "anytime_td",
+      "player_id": "00-0039923",
+      "subject": "J.J. McCarthy",
+      "team": "NYG",
+      "opp": "WAS",
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "book": "fanduel",
+      "price": 490,
+      "best_price": {
+        "book": "fanduel",
+        "price": 490
+      },
+      "other_side_price": null,
+      "base_pct": 0.1106,
+      "hit_method": "estimate",
+      "method_detail": "ESTIMATE: 50% book (16.9%) + 50% TD model: team 21.0 pts \u2192 2.30 TDs; 4% of RZ chances, 0% of targets (last 4); matchup \u00d70.86; finishing \u00d71.00; \u03bb=0.05 \u2192 5.2%",
+      "adjustments": [],
+      "hit_pct": 0.1106,
+      "implied_pct": 0.1695,
+      "edge": -5.9,
+      "hit_freq": {
+        "hits": 0,
+        "games": 5,
+        "expected": 0.8,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 490
+      },
+      "model_check": 0.0517,
+      "support": [],
+      "flags": []
+    },
+    {
+      "bet_id": "b014",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "anytime_td",
+      "player_id": "00-0036309",
+      "subject": "Darnell Mooney",
+      "team": "NYG",
+      "opp": "WAS",
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "book": "fanduel",
+      "price": 850,
+      "best_price": {
+        "book": "fanduel",
+        "price": 850
+      },
+      "other_side_price": null,
+      "base_pct": 0.0653,
+      "hit_method": "estimate",
+      "method_detail": "ESTIMATE: 50% book (10.5%) + 50% TD model: team 21.0 pts \u2192 2.30 TDs; 0% of RZ chances, 10% of targets (last 5); matchup \u00d71.07; finishing \u00d70.70; \u03bb=0.03 \u2192 2.5%",
+      "adjustments": [],
+      "hit_pct": 0.0653,
+      "implied_pct": 0.1053,
+      "edge": -4.0,
+      "hit_freq": {
+        "hits": 0,
+        "games": 5,
+        "expected": 0.5,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 850
+      },
+      "model_check": 0.0253,
+      "support": [
+        "Similar WRs vs WAS: 2/2 with 3+ RZ chances scored"
+      ],
+      "flags": []
+    },
+    {
+      "bet_id": "b015",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "anytime_td",
+      "player_id": "00-0036415",
+      "subject": "Van Jefferson",
+      "team": "WAS",
+      "opp": "NYG",
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "book": "fanduel",
+      "price": 850,
+      "best_price": {
+        "book": "fanduel",
+        "price": 850
+      },
+      "other_side_price": null,
+      "base_pct": 0.1734,
+      "hit_method": "estimate",
+      "method_detail": "ESTIMATE: 50% book (10.5%) + 50% TD model: team 19.5 pts \u2192 2.13 TDs; 12% of RZ chances, 13% of targets (last 2); matchup \u00d71.14; finishing \u00d71.00; \u03bb=0.28 \u2192 24.2%",
+      "adjustments": [],
+      "hit_pct": 0.1734,
+      "implied_pct": 0.1053,
+      "edge": 6.8,
+      "hit_freq": {
+        "hits": 1,
+        "games": 5,
+        "expected": 0.5,
         "small_sample": false
       },
       "streak_note": null,
       "boards": [
-        "plus"
+        "long_shot"
       ],
-      "kickoff_et": "2026-11-12T20:15:00-05:00"
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 850
+      },
+      "model_check": 0.2416,
+      "support": [
+        "Similar WRs vs NYG: 2/3 with 3+ RZ chances scored"
+      ],
+      "flags": [
+        "Role based on only 2 recent game(s) with this team"
+      ]
+    },
+    {
+      "bet_id": "b016",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "anytime_td",
+      "player_id": "00-0039847",
+      "subject": "Theo Johnson",
+      "team": "NYG",
+      "opp": "WAS",
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "book": "fanduel",
+      "price": 900,
+      "best_price": {
+        "book": "fanduel",
+        "price": 900
+      },
+      "other_side_price": null,
+      "base_pct": 0.1308,
+      "hit_method": "estimate",
+      "method_detail": "ESTIMATE: 50% book (10.0%) + 50% TD model: team 21.0 pts \u2192 2.30 TDs; 5% of RZ chances, 7% of targets (last 5); matchup \u00d71.56; finishing \u00d71.05; \u03bb=0.18 \u2192 16.2%",
+      "adjustments": [],
+      "hit_pct": 0.1308,
+      "implied_pct": 0.1,
+      "edge": 3.1,
+      "hit_freq": {
+        "hits": 1,
+        "games": 5,
+        "expected": 0.5,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 900
+      },
+      "model_check": 0.1616,
+      "support": [
+        "Similar TEs vs WAS: 1/2 with 3+ RZ chances scored"
+      ],
+      "flags": []
+    },
+    {
+      "bet_id": "b017",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "anytime_td",
+      "player_id": "00-0039355",
+      "subject": "Luke McCaffrey",
+      "team": "WAS",
+      "opp": "NYG",
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "book": "fanduel",
+      "price": 1300,
+      "best_price": {
+        "book": "fanduel",
+        "price": 1300
+      },
+      "other_side_price": null,
+      "base_pct": 0.0381,
+      "hit_method": "estimate",
+      "method_detail": "ESTIMATE: 50% book (7.1%) + 50% TD model: team 19.5 pts \u2192 2.13 TDs; 0% of RZ chances, 1% of targets (last 5); matchup \u00d71.14; finishing \u00d71.00; \u03bb=0.00 \u2192 0.5%",
+      "adjustments": [],
+      "hit_pct": 0.0381,
+      "implied_pct": 0.0714,
+      "edge": -3.3,
+      "hit_freq": {
+        "hits": 0,
+        "games": 5,
+        "expected": 0.4,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 1300
+      },
+      "model_check": 0.0047,
+      "support": [
+        "Similar WRs vs NYG: 2/3 with 3+ RZ chances scored"
+      ],
+      "flags": []
+    },
+    {
+      "bet_id": "b018",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "anytime_td",
+      "player_id": "00-0036628",
+      "subject": "John Bates",
+      "team": "WAS",
+      "opp": "NYG",
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "book": "fanduel",
+      "price": 1500,
+      "best_price": {
+        "book": "fanduel",
+        "price": 1500
+      },
+      "other_side_price": null,
+      "base_pct": 0.0653,
+      "hit_method": "estimate",
+      "method_detail": "ESTIMATE: 50% book (6.2%) + 50% TD model: team 19.5 pts \u2192 2.13 TDs; 5% of RZ chances, 5% of targets (last 5); matchup \u00d70.77; finishing \u00d71.00; \u03bb=0.07 \u2192 6.8%",
+      "adjustments": [],
+      "hit_pct": 0.0653,
+      "implied_pct": 0.0625,
+      "edge": 0.3,
+      "hit_freq": {
+        "hits": 0,
+        "games": 5,
+        "expected": 0.3,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 1500
+      },
+      "model_check": 0.0681,
+      "support": [],
+      "flags": []
+    },
+    {
+      "bet_id": "b019",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "anytime_td",
+      "player_id": "00-0038938",
+      "subject": "Jalin Hyatt",
+      "team": "NYG",
+      "opp": "WAS",
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "book": "fanduel",
+      "price": 1900,
+      "best_price": {
+        "book": "fanduel",
+        "price": 1900
+      },
+      "other_side_price": null,
+      "base_pct": 0.0544,
+      "hit_method": "estimate",
+      "method_detail": "ESTIMATE: 50% book (5.0%) + 50% TD model: team 21.0 pts \u2192 2.30 TDs; 2% of RZ chances, 4% of targets (last 5); matchup \u00d71.07; finishing \u00d71.00; \u03bb=0.06 \u2192 5.9%",
+      "adjustments": [],
+      "hit_pct": 0.0544,
+      "implied_pct": 0.05,
+      "edge": 0.4,
+      "hit_freq": {
+        "hits": 0,
+        "games": 5,
+        "expected": 0.2,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 1900
+      },
+      "model_check": 0.0588,
+      "support": [
+        "Similar WRs vs WAS: 2/2 with 3+ RZ chances scored"
+      ],
+      "flags": []
+    },
+    {
+      "bet_id": "b020",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "anytime_td",
+      "player_id": "00-0038576",
+      "subject": "Charlie Jones",
+      "team": "NYG",
+      "opp": "WAS",
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "book": "fanduel",
+      "price": 2000,
+      "best_price": {
+        "book": "fanduel",
+        "price": 2000
+      },
+      "other_side_price": null,
+      "base_pct": 0.0269,
+      "hit_method": "estimate",
+      "method_detail": "ESTIMATE: 50% book (4.8%) + 50% TD model: team 21.0 pts \u2192 2.30 TDs; 0% of RZ chances, 2% of targets (last 5); matchup \u00d71.07; finishing \u00d71.00; \u03bb=0.01 \u2192 0.6%",
+      "adjustments": [],
+      "hit_pct": 0.0269,
+      "implied_pct": 0.0476,
+      "edge": -2.1,
+      "hit_freq": {
+        "hits": 0,
+        "games": 5,
+        "expected": 0.2,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 2000
+      },
+      "model_check": 0.0063,
+      "support": [
+        "Similar WRs vs WAS: 2/2 with 3+ RZ chances scored"
+      ],
+      "flags": []
+    },
+    {
+      "bet_id": "b021",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "anytime_td",
+      "player_id": "00-0039912",
+      "subject": "Ben Sinnott",
+      "team": "WAS",
+      "opp": "NYG",
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "book": "fanduel",
+      "price": 2000,
+      "best_price": {
+        "book": "fanduel",
+        "price": 2000
+      },
+      "other_side_price": null,
+      "base_pct": 0.0313,
+      "hit_method": "estimate",
+      "method_detail": "ESTIMATE: 50% book (4.8%) + 50% TD model: team 19.5 pts \u2192 2.13 TDs; 0% of RZ chances, 6% of targets (last 5); matchup \u00d70.77; finishing \u00d71.00; \u03bb=0.02 \u2192 1.5%",
+      "adjustments": [],
+      "hit_pct": 0.0313,
+      "implied_pct": 0.0476,
+      "edge": -1.6,
+      "hit_freq": {
+        "hits": 0,
+        "games": 5,
+        "expected": 0.2,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 2000
+      },
+      "model_check": 0.0151,
+      "support": [],
+      "flags": []
+    },
+    {
+      "bet_id": "b022",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "anytime_td",
+      "player_id": "00-0041178",
+      "subject": "Robert Henry Jr.",
+      "team": "WAS",
+      "opp": "NYG",
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "book": "fanduel",
+      "price": 2700,
+      "best_price": {
+        "book": "fanduel",
+        "price": 2700
+      },
+      "other_side_price": null,
+      "base_pct": 0.0179,
+      "hit_method": "estimate",
+      "method_detail": "ESTIMATE: 50% book (3.6%) + 50% TD model: team 19.5 pts \u2192 2.13 TDs; 0% of RZ chances, 0% of targets (last 0); matchup \u00d70.99; finishing \u00d71.00; \u03bb=0.00 \u2192 0.0%",
+      "adjustments": [],
+      "hit_pct": 0.0179,
+      "implied_pct": 0.0357,
+      "edge": -1.8,
+      "hit_freq": {
+        "hits": 0,
+        "games": 0,
+        "expected": 0.0,
+        "small_sample": true
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 2700
+      },
+      "model_check": 0.0,
+      "support": [
+        "Similar RBs vs NYG: 2/4 with 3+ RZ chances scored"
+      ],
+      "flags": [
+        "Role based on only 0 recent game(s) with this team"
+      ]
+    },
+    {
+      "bet_id": "b023",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "anytime_td",
+      "player_id": "00-0033376",
+      "subject": "Patrick Ricard",
+      "team": "NYG",
+      "opp": "WAS",
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "book": "fanduel",
+      "price": 3300,
+      "best_price": {
+        "book": "fanduel",
+        "price": 3300
+      },
+      "other_side_price": null,
+      "base_pct": 0.0228,
+      "hit_method": "estimate",
+      "method_detail": "ESTIMATE: 50% book (2.9%) + 50% TD model: team 21.0 pts \u2192 2.30 TDs; 0% of RZ chances, 5% of targets (last 2); matchup \u00d70.92; finishing \u00d71.00; \u03bb=0.02 \u2192 1.6%",
+      "adjustments": [],
+      "hit_pct": 0.0228,
+      "implied_pct": 0.0294,
+      "edge": -0.7,
+      "hit_freq": {
+        "hits": 0,
+        "games": 5,
+        "expected": 0.1,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 3300
+      },
+      "model_check": 0.0161,
+      "support": [
+        "Similar RBs vs WAS: 3/5 with 3+ RZ chances scored"
+      ],
+      "flags": [
+        "Role based on only 2 recent game(s) with this team"
+      ]
+    },
+    {
+      "bet_id": "b024",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "anytime_td",
+      "player_id": "00-0031484",
+      "subject": "Chris Manhertz",
+      "team": "NYG",
+      "opp": "WAS",
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "book": "fanduel",
+      "price": 3500,
+      "best_price": {
+        "book": "fanduel",
+        "price": 3500
+      },
+      "other_side_price": null,
+      "base_pct": 0.0623,
+      "hit_method": "estimate",
+      "method_detail": "ESTIMATE: 50% book (2.8%) + 50% TD model: team 21.0 pts \u2192 2.30 TDs; 4% of RZ chances, 1% of targets (last 5); matchup \u00d71.56; finishing \u00d71.00; \u03bb=0.10 \u2192 9.7%",
+      "adjustments": [],
+      "hit_pct": 0.0623,
+      "implied_pct": 0.0278,
+      "edge": 3.4,
+      "hit_freq": {
+        "hits": 0,
+        "games": 5,
+        "expected": 0.1,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 3500
+      },
+      "model_check": 0.0967,
+      "support": [
+        "Similar TEs vs WAS: 1/2 with 3+ RZ chances scored"
+      ],
+      "flags": []
+    },
+    {
+      "bet_id": "b025",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "multi_td",
+      "player_id": "00-0040715",
+      "subject": "Cam Skattebo",
+      "team": "NYG",
+      "opp": "WAS",
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 1.5,
+      "book": "fanduel",
+      "price": 950,
+      "best_price": {
+        "book": "fanduel",
+        "price": 950
+      },
+      "other_side_price": null,
+      "base_pct": 0.088,
+      "hit_method": "model",
+      "method_detail": "Poisson from final anytime Hit % (\u03bb=0.49)",
+      "adjustments": [
+        {
+          "type": "research",
+          "points": 2,
+          "reason": "Red-zone leader: 38% of team's carries inside the 20 (last 5)"
+        }
+      ],
+      "hit_pct": 0.108,
+      "implied_pct": 0.0952,
+      "edge": 1.3,
+      "hit_freq": {
+        "hits": 0,
+        "games": 5,
+        "expected": 0.5,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 950
+      },
+      "model_check": null,
+      "support": [
+        "Red-zone leader"
+      ],
+      "flags": []
+    },
+    {
+      "bet_id": "b026",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "multi_td",
+      "player_id": "00-0039337",
+      "subject": "Malik Nabers",
+      "team": "NYG",
+      "opp": "WAS",
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 1.5,
+      "book": "fanduel",
+      "price": 1400,
+      "best_price": {
+        "book": "fanduel",
+        "price": 1400
+      },
+      "other_side_price": null,
+      "base_pct": 0.078,
+      "hit_method": "model",
+      "method_detail": "Poisson from final anytime Hit % (\u03bb=0.46)",
+      "adjustments": [
+        {
+          "type": "research",
+          "points": 2,
+          "reason": "Red-zone leader: 33% of team's targets inside the 20 (last 5)"
+        },
+        {
+          "type": "research",
+          "points": 1,
+          "reason": "WAS allows the #9 most TDs to WRs (1.0/gm)"
+        }
+      ],
+      "hit_pct": 0.108,
+      "implied_pct": 0.0667,
+      "edge": 4.1,
+      "hit_freq": {
+        "hits": 0,
+        "games": 5,
+        "expected": 0.3,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 1400
+      },
+      "model_check": null,
+      "support": [
+        "Defense matchup",
+        "Red-zone leader"
+      ],
+      "flags": []
+    },
+    {
+      "bet_id": "b027",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "multi_td",
+      "player_id": "00-0037256",
+      "subject": "Rachaad White",
+      "team": "WAS",
+      "opp": "NYG",
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 1.5,
+      "book": "fanduel",
+      "price": 1400,
+      "best_price": {
+        "book": "fanduel",
+        "price": 1400
+      },
+      "other_side_price": null,
+      "base_pct": 0.051,
+      "hit_method": "model",
+      "method_detail": "Poisson from final anytime Hit % (\u03bb=0.36)",
+      "adjustments": [],
+      "hit_pct": 0.051,
+      "implied_pct": 0.0667,
+      "edge": -1.6,
+      "hit_freq": {
+        "hits": 0,
+        "games": 5,
+        "expected": 0.3,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 1400
+      },
+      "model_check": null,
+      "support": [],
+      "flags": []
+    },
+    {
+      "bet_id": "b028",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "multi_td",
+      "player_id": "00-0037838",
+      "subject": "Isaiah Likely",
+      "team": "NYG",
+      "opp": "WAS",
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 1.5,
+      "book": "fanduel",
+      "price": 1800,
+      "best_price": {
+        "book": "fanduel",
+        "price": 1800
+      },
+      "other_side_price": null,
+      "base_pct": 0.0798,
+      "hit_method": "model",
+      "method_detail": "Poisson from final anytime Hit % (\u03bb=0.47)",
+      "adjustments": [
+        {
+          "type": "research",
+          "points": 2,
+          "reason": "Red-zone leader: 33% of team's targets inside the 20 (last 5)"
+        },
+        {
+          "type": "research",
+          "points": 2,
+          "reason": "WAS allows the #2 most TDs to TEs (1.0/gm)"
+        }
+      ],
+      "hit_pct": 0.1198,
+      "implied_pct": 0.0526,
+      "edge": 6.7,
+      "hit_freq": {
+        "hits": 1,
+        "games": 5,
+        "expected": 0.3,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 1800
+      },
+      "model_check": null,
+      "support": [
+        "Defense matchup",
+        "Red-zone leader"
+      ],
+      "flags": []
+    },
+    {
+      "bet_id": "b029",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "multi_td",
+      "player_id": "00-0031588",
+      "subject": "Stefon Diggs",
+      "team": "WAS",
+      "opp": "NYG",
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 1.5,
+      "book": "fanduel",
+      "price": 2200,
+      "best_price": {
+        "book": "fanduel",
+        "price": 2200
+      },
+      "other_side_price": null,
+      "base_pct": 0.0555,
+      "hit_method": "model",
+      "method_detail": "Poisson from final anytime Hit % (\u03bb=0.38)",
+      "adjustments": [
+        {
+          "type": "research",
+          "points": 1,
+          "reason": "NYG allows the #6 most TDs to WRs (1.125/gm)"
+        },
+        {
+          "type": "injury",
+          "points": 2,
+          "reason": "\ud83d\udd3a Terry McLaurin out: Already leads WAS in red-zone targets; McLaurin's 4 RZ targets move mostly to him"
+        }
+      ],
+      "hit_pct": 0.0855,
+      "implied_pct": 0.0435,
+      "edge": 4.2,
+      "hit_freq": {
+        "hits": 0,
+        "games": 5,
+        "expected": 0.2,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 2200
+      },
+      "model_check": null,
+      "support": [
+        "Defense matchup",
+        "Injury boost"
+      ],
+      "flags": []
+    },
+    {
+      "bet_id": "b030",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "multi_td",
+      "player_id": "00-0039910",
+      "subject": "Jayden Daniels",
+      "team": "WAS",
+      "opp": "NYG",
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 1.5,
+      "book": "fanduel",
+      "price": 2700,
+      "best_price": {
+        "book": "fanduel",
+        "price": 2700
+      },
+      "other_side_price": null,
+      "base_pct": 0.0378,
+      "hit_method": "model",
+      "method_detail": "Poisson from final anytime Hit % (\u03bb=0.30)",
+      "adjustments": [
+        {
+          "type": "research",
+          "points": 2,
+          "reason": "NYG allows the #2 most TDs to QBs (0.375/gm)"
+        }
+      ],
+      "hit_pct": 0.0578,
+      "implied_pct": 0.0357,
+      "edge": 2.2,
+      "hit_freq": {
+        "hits": 1,
+        "games": 5,
+        "expected": 0.2,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 2700
+      },
+      "model_check": null,
+      "support": [
+        "Defense matchup"
+      ],
+      "flags": []
+    },
+    {
+      "bet_id": "b031",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "multi_td",
+      "player_id": "00-0035250",
+      "subject": "Devin Singletary",
+      "team": "NYG",
+      "opp": "WAS",
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 1.5,
+      "book": "fanduel",
+      "price": 2700,
+      "best_price": {
+        "book": "fanduel",
+        "price": 2700
+      },
+      "other_side_price": null,
+      "base_pct": 0.0322,
+      "hit_method": "model",
+      "method_detail": "Poisson from final anytime Hit % (\u03bb=0.28)",
+      "adjustments": [],
+      "hit_pct": 0.0322,
+      "implied_pct": 0.0357,
+      "edge": -0.3,
+      "hit_freq": {
+        "hits": 0,
+        "games": 5,
+        "expected": 0.2,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 2700
+      },
+      "model_check": null,
+      "support": [],
+      "flags": []
+    },
+    {
+      "bet_id": "b032",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "multi_td",
+      "player_id": "00-0033699",
+      "subject": "Austin Ekeler",
+      "team": "WAS",
+      "opp": "NYG",
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 1.5,
+      "book": "fanduel",
+      "price": 3000,
+      "best_price": {
+        "book": "fanduel",
+        "price": 3000
+      },
+      "other_side_price": null,
+      "base_pct": 0.0367,
+      "hit_method": "model",
+      "method_detail": "Poisson from final anytime Hit % (\u03bb=0.30)",
+      "adjustments": [
+        {
+          "type": "research",
+          "points": 2,
+          "reason": "Red-zone leader: 31% of team's carries inside the 20 (last 5)"
+        }
+      ],
+      "hit_pct": 0.0567,
+      "implied_pct": 0.0323,
+      "edge": 2.4,
+      "hit_freq": {
+        "hits": 0,
+        "games": 5,
+        "expected": 0.2,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 3000
+      },
+      "model_check": null,
+      "support": [
+        "Red-zone leader"
+      ],
+      "flags": []
+    },
+    {
+      "bet_id": "b033",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "multi_td",
+      "player_id": "00-0037742",
+      "subject": "Treylon Burks",
+      "team": "WAS",
+      "opp": "NYG",
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 1.5,
+      "book": "fanduel",
+      "price": 3500,
+      "best_price": {
+        "book": "fanduel",
+        "price": 3500
+      },
+      "other_side_price": null,
+      "base_pct": 0.0251,
+      "hit_method": "model",
+      "method_detail": "Poisson from final anytime Hit % (\u03bb=0.24)",
+      "adjustments": [
+        {
+          "type": "research",
+          "points": 1,
+          "reason": "NYG allows the #6 most TDs to WRs (1.125/gm)"
+        }
+      ],
+      "hit_pct": 0.0351,
+      "implied_pct": 0.0278,
+      "edge": 0.7,
+      "hit_freq": {
+        "hits": 0,
+        "games": 5,
+        "expected": 0.1,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 3500
+      },
+      "model_check": null,
+      "support": [
+        "Defense matchup"
+      ],
+      "flags": []
+    },
+    {
+      "bet_id": "b034",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "multi_td",
+      "player_id": "00-0037809",
+      "subject": "Chig Okonkwo",
+      "team": "WAS",
+      "opp": "NYG",
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 1.5,
+      "book": "fanduel",
+      "price": 4500,
+      "best_price": {
+        "book": "fanduel",
+        "price": 4500
+      },
+      "other_side_price": null,
+      "base_pct": 0.012,
+      "hit_method": "model",
+      "method_detail": "Poisson from final anytime Hit % (\u03bb=0.16)",
+      "adjustments": [
+        {
+          "type": "research",
+          "points": -1,
+          "reason": "NYG allows the #23 most TDs to TEs (0.25/gm)"
+        }
+      ],
+      "hit_pct": 0.01,
+      "implied_pct": 0.0217,
+      "edge": -1.2,
+      "hit_freq": {
+        "hits": 0,
+        "games": 5,
+        "expected": 0.1,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 4500
+      },
+      "model_check": null,
+      "support": [],
+      "flags": []
+    },
+    {
+      "bet_id": "b035",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "multi_td",
+      "player_id": "00-0041040",
+      "subject": "Antonio Williams",
+      "team": "WAS",
+      "opp": "NYG",
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 1.5,
+      "book": "fanduel",
+      "price": 5000,
+      "best_price": {
+        "book": "fanduel",
+        "price": 5000
+      },
+      "other_side_price": null,
+      "base_pct": 0.0105,
+      "hit_method": "model",
+      "method_detail": "Poisson from final anytime Hit % (\u03bb=0.15)",
+      "adjustments": [
+        {
+          "type": "research",
+          "points": 1,
+          "reason": "NYG allows the #6 most TDs to WRs (1.125/gm)"
+        },
+        {
+          "type": "injury",
+          "points": 1,
+          "reason": "\ud83d\udd3a Terry McLaurin out: 83-84% snaps the last 2 games as the new WR2"
+        }
+      ],
+      "hit_pct": 0.0305,
+      "implied_pct": 0.0196,
+      "edge": 1.1,
+      "hit_freq": {
+        "hits": 0,
+        "games": 5,
+        "expected": 0.1,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 5000
+      },
+      "model_check": null,
+      "support": [
+        "Defense matchup",
+        "Injury boost"
+      ],
+      "flags": []
+    },
+    {
+      "bet_id": "b036",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "multi_td",
+      "player_id": "00-0041042",
+      "subject": "Malachi Fields",
+      "team": "NYG",
+      "opp": "WAS",
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 1.5,
+      "book": "fanduel",
+      "price": 6000,
+      "best_price": {
+        "book": "fanduel",
+        "price": 6000
+      },
+      "other_side_price": null,
+      "base_pct": 0.02,
+      "hit_method": "model",
+      "method_detail": "Poisson from final anytime Hit % (\u03bb=0.21)",
+      "adjustments": [
+        {
+          "type": "research",
+          "points": 1,
+          "reason": "WAS allows the #9 most TDs to WRs (1.0/gm)"
+        }
+      ],
+      "hit_pct": 0.03,
+      "implied_pct": 0.0164,
+      "edge": 1.4,
+      "hit_freq": {
+        "hits": 0,
+        "games": 5,
+        "expected": 0.1,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 6000
+      },
+      "model_check": null,
+      "support": [
+        "Defense matchup"
+      ],
+      "flags": []
+    },
+    {
+      "bet_id": "b037",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "multi_td",
+      "player_id": "00-0039923",
+      "subject": "J.J. McCarthy",
+      "team": "NYG",
+      "opp": "WAS",
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 1.5,
+      "book": "fanduel",
+      "price": 6500,
+      "best_price": {
+        "book": "fanduel",
+        "price": 6500
+      },
+      "other_side_price": null,
+      "base_pct": 0.0064,
+      "hit_method": "model",
+      "method_detail": "Poisson from final anytime Hit % (\u03bb=0.12)",
+      "adjustments": [],
+      "hit_pct": 0.01,
+      "implied_pct": 0.0152,
+      "edge": -0.5,
+      "hit_freq": {
+        "hits": 0,
+        "games": 5,
+        "expected": 0.1,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 6500
+      },
+      "model_check": null,
+      "support": [],
+      "flags": []
+    },
+    {
+      "bet_id": "b038",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "multi_td",
+      "player_id": "00-0036415",
+      "subject": "Van Jefferson",
+      "team": "WAS",
+      "opp": "NYG",
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 1.5,
+      "book": "fanduel",
+      "price": 12500,
+      "best_price": {
+        "book": "fanduel",
+        "price": 12500
+      },
+      "other_side_price": null,
+      "base_pct": 0.016,
+      "hit_method": "model",
+      "method_detail": "Poisson from final anytime Hit % (\u03bb=0.19)",
+      "adjustments": [
+        {
+          "type": "research",
+          "points": 1,
+          "reason": "NYG allows the #6 most TDs to WRs (1.125/gm)"
+        }
+      ],
+      "hit_pct": 0.026,
+      "implied_pct": 0.0079,
+      "edge": 1.8,
+      "hit_freq": {
+        "hits": 0,
+        "games": 5,
+        "expected": 0.0,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 12500
+      },
+      "model_check": null,
+      "support": [
+        "Defense matchup"
+      ],
+      "flags": [
+        "Role based on only 2 recent game(s) with this team"
+      ]
+    },
+    {
+      "bet_id": "b039",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "multi_td",
+      "player_id": "00-0039847",
+      "subject": "Theo Johnson",
+      "team": "NYG",
+      "opp": "WAS",
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 1.5,
+      "book": "fanduel",
+      "price": 12500,
+      "best_price": {
+        "book": "fanduel",
+        "price": 12500
+      },
+      "other_side_price": null,
+      "base_pct": 0.009,
+      "hit_method": "model",
+      "method_detail": "Poisson from final anytime Hit % (\u03bb=0.14)",
+      "adjustments": [
+        {
+          "type": "research",
+          "points": 2,
+          "reason": "WAS allows the #2 most TDs to TEs (1.0/gm)"
+        }
+      ],
+      "hit_pct": 0.029,
+      "implied_pct": 0.0079,
+      "edge": 2.1,
+      "hit_freq": {
+        "hits": 0,
+        "games": 5,
+        "expected": 0.0,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 12500
+      },
+      "model_check": null,
+      "support": [
+        "Defense matchup"
+      ],
+      "flags": []
+    },
+    {
+      "bet_id": "b040",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "multi_td",
+      "player_id": "00-0036309",
+      "subject": "Darnell Mooney",
+      "team": "NYG",
+      "opp": "WAS",
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 1.5,
+      "book": "fanduel",
+      "price": 15000,
+      "best_price": {
+        "book": "fanduel",
+        "price": 15000
+      },
+      "other_side_price": null,
+      "base_pct": 0.0022,
+      "hit_method": "model",
+      "method_detail": "Poisson from final anytime Hit % (\u03bb=0.07)",
+      "adjustments": [
+        {
+          "type": "research",
+          "points": 1,
+          "reason": "WAS allows the #9 most TDs to WRs (1.0/gm)"
+        }
+      ],
+      "hit_pct": 0.0122,
+      "implied_pct": 0.0066,
+      "edge": 0.6,
+      "hit_freq": {
+        "hits": 0,
+        "games": 5,
+        "expected": 0.0,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 15000
+      },
+      "model_check": null,
+      "support": [
+        "Defense matchup"
+      ],
+      "flags": []
+    },
+    {
+      "bet_id": "b041",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "multi_td",
+      "player_id": "00-0040715",
+      "subject": "Cam Skattebo",
+      "team": "NYG",
+      "opp": "WAS",
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 2.5,
+      "book": "fanduel",
+      "price": 5500,
+      "best_price": {
+        "book": "fanduel",
+        "price": 5500
+      },
+      "other_side_price": null,
+      "base_pct": 0.0138,
+      "hit_method": "model",
+      "method_detail": "Poisson from final anytime Hit % (\u03bb=0.49)",
+      "adjustments": [
+        {
+          "type": "research",
+          "points": 2,
+          "reason": "Red-zone leader: 38% of team's carries inside the 20 (last 5)"
+        }
+      ],
+      "hit_pct": 0.0338,
+      "implied_pct": 0.0179,
+      "edge": 1.6,
+      "hit_freq": {
+        "hits": 0,
+        "games": 5,
+        "expected": 0.1,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 5500
+      },
+      "model_check": null,
+      "support": [
+        "Red-zone leader"
+      ],
+      "flags": []
+    },
+    {
+      "bet_id": "b042",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "multi_td",
+      "player_id": "00-0037256",
+      "subject": "Rachaad White",
+      "team": "WAS",
+      "opp": "NYG",
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 2.5,
+      "book": "fanduel",
+      "price": 10000,
+      "best_price": {
+        "book": "fanduel",
+        "price": 10000
+      },
+      "other_side_price": null,
+      "base_pct": 0.0059,
+      "hit_method": "model",
+      "method_detail": "Poisson from final anytime Hit % (\u03bb=0.36)",
+      "adjustments": [],
+      "hit_pct": 0.01,
+      "implied_pct": 0.0099,
+      "edge": 0.0,
+      "hit_freq": {
+        "hits": 0,
+        "games": 5,
+        "expected": 0.0,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 10000
+      },
+      "model_check": null,
+      "support": [],
+      "flags": []
+    },
+    {
+      "bet_id": "b043",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "multi_td",
+      "player_id": "00-0039337",
+      "subject": "Malik Nabers",
+      "team": "NYG",
+      "opp": "WAS",
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 2.5,
+      "book": "fanduel",
+      "price": 10000,
+      "best_price": {
+        "book": "fanduel",
+        "price": 10000
+      },
+      "other_side_price": null,
+      "base_pct": 0.0115,
+      "hit_method": "model",
+      "method_detail": "Poisson from final anytime Hit % (\u03bb=0.46)",
+      "adjustments": [
+        {
+          "type": "research",
+          "points": 2,
+          "reason": "Red-zone leader: 33% of team's targets inside the 20 (last 5)"
+        },
+        {
+          "type": "research",
+          "points": 1,
+          "reason": "WAS allows the #9 most TDs to WRs (1.0/gm)"
+        }
+      ],
+      "hit_pct": 0.0415,
+      "implied_pct": 0.0099,
+      "edge": 3.2,
+      "hit_freq": {
+        "hits": 0,
+        "games": 5,
+        "expected": 0.0,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 10000
+      },
+      "model_check": null,
+      "support": [
+        "Defense matchup",
+        "Red-zone leader"
+      ],
+      "flags": []
+    },
+    {
+      "bet_id": "b044",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "multi_td",
+      "player_id": "00-0037838",
+      "subject": "Isaiah Likely",
+      "team": "NYG",
+      "opp": "WAS",
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 2.5,
+      "book": "fanduel",
+      "price": 15000,
+      "best_price": {
+        "book": "fanduel",
+        "price": 15000
+      },
+      "other_side_price": null,
+      "base_pct": 0.0119,
+      "hit_method": "model",
+      "method_detail": "Poisson from final anytime Hit % (\u03bb=0.47)",
+      "adjustments": [
+        {
+          "type": "research",
+          "points": 2,
+          "reason": "Red-zone leader: 33% of team's targets inside the 20 (last 5)"
+        },
+        {
+          "type": "research",
+          "points": 2,
+          "reason": "WAS allows the #2 most TDs to TEs (1.0/gm)"
+        }
+      ],
+      "hit_pct": 0.0519,
+      "implied_pct": 0.0066,
+      "edge": 4.5,
+      "hit_freq": {
+        "hits": 0,
+        "games": 5,
+        "expected": 0.0,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 15000
+      },
+      "model_check": null,
+      "support": [
+        "Defense matchup",
+        "Red-zone leader"
+      ],
+      "flags": []
+    },
+    {
+      "bet_id": "b045",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "game_specials",
+      "player_id": null,
+      "subject": "WAS",
+      "team": "WAS",
+      "opp": "NYG",
+      "market": "h2h",
+      "side": "WAS",
+      "line": null,
+      "book": "fanduel",
+      "price": 100,
+      "best_price": {
+        "book": "fanduel",
+        "price": 100
+      },
+      "other_side_price": -118,
+      "base_pct": 0.429,
+      "hit_method": "model",
+      "method_detail": "dimers win probability",
+      "adjustments": [],
+      "hit_pct": 0.429,
+      "implied_pct": 0.5,
+      "edge": -7.1,
+      "hit_freq": {
+        "hits": 0,
+        "games": 0,
+        "expected": 0.0,
+        "small_sample": true
+      },
+      "streak_note": null,
+      "boards": [],
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "prices_by_book": {
+        "fanduel": 100
+      },
+      "model_check": null,
+      "support": [],
+      "flags": []
     }
   ],
   "parlays": [],
   "near_misses": [
     {
-      "bet_id": "b001",
-      "missed_by": "n/a",
-      "news_that_changes_it": "n/a"
+      "bet_id": "b028",
+      "missed_by": "Hit 12% (long shot needs 15%)",
+      "news_that_changes_it": "Confirmed bigger role or a teammate ruled out"
+    },
+    {
+      "bet_id": "b044",
+      "missed_by": "edge +4.5 (long shot needs +5); Hit 5% (long shot needs 15%)",
+      "news_that_changes_it": "Confirmed bigger role or a teammate ruled out"
+    },
+    {
+      "bet_id": "b029",
+      "missed_by": "edge +4.2 (long shot needs +5); Hit 9% (long shot needs 15%)",
+      "news_that_changes_it": "Confirmed bigger role or a teammate ruled out"
+    },
+    {
+      "bet_id": "b026",
+      "missed_by": "edge +4.1 (long shot needs +5); Hit 11% (long shot needs 15%)",
+      "news_that_changes_it": "Confirmed bigger role or a teammate ruled out"
+    },
+    {
+      "bet_id": "b004",
+      "missed_by": "edge +3.9 (needs +4)",
+      "news_that_changes_it": "Confirmed bigger role or a teammate ruled out"
+    },
+    {
+      "bet_id": "b024",
+      "missed_by": "edge +3.4 (long shot needs +5); Hit 6% (long shot needs 15%)",
+      "news_that_changes_it": "Confirmed bigger role or a teammate ruled out"
     }
   ]
 }

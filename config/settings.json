@@ -1,0 +1,7 @@
+{
+  "_comment": "One place for the house rules. Scripts AND agents read this file. Change it here, nowhere else.",
+  "books": ["fanduel"],
+  "min_price": 100,
+  "_books_help": "Sportsbooks to use, in order of preference. Only these books' prices are collected, scored, shown, or used in parlays.",
+  "_min_price_help": "Lowest American odds a bet may have to be shown or considered. 100 = plus-money only (+100 and longer). Minus prices are still read for the OTHER side of a pair so no-vig math works, but are never shown or recommended."
+}

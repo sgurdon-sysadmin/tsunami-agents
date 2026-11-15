@@ -9,6 +9,13 @@
       "player_name": "J.J. McCarthy",
       "confirmed": true,
       "note": "Jaxson Dart out for season"
+    },
+    {
+      "team": "WAS",
+      "pos": "QB",
+      "player_name": "Jayden Daniels",
+      "confirmed": true,
+      "note": null
     }
   ],
   "players": [
@@ -45,20 +52,46 @@
         "fetched_at": "2026-11-12T19:40:00-05:00",
         "verbatim": true
       }
+    },
+    {
+      "player_name": "Cam Skattebo",
+      "team": "NYG",
+      "pos": "RB",
+      "status": "active",
+      "injury": "hamstring",
+      "practice": [
+        "LP",
+        "FP",
+        "FP"
+      ],
+      "game_day_inactive": null,
+      "source": {
+        "name": "SportsBettingDime",
+        "url": null,
+        "fetched_at": "2026-11-12T19:40:00-05:00",
+        "verbatim": true
+      }
     }
   ],
   "volume_shifts": [
     {
       "team": "WAS",
       "out_player": "Terry McLaurin",
+      "reason": "WR1 out for the season",
       "beneficiaries": [
         {
           "player_name": "Stefon Diggs",
           "role": "red_zone",
-          "boost_points": 2
+          "boost_points": 2,
+          "why": "Already leads WAS in red-zone targets; McLaurin's 4 RZ targets move mostly to him"
+        },
+        {
+          "player_name": "Antonio Williams",
+          "role": "targets",
+          "boost_points": 1,
+          "why": "83-84% snaps the last 2 games as the new WR2"
         }
-      ],
-      "reason": "WR1 out; Diggs leads team in RZ targets"
+      ]
     }
   ],
   "transactions": [],

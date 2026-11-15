@@ -128,6 +128,9 @@
           "red_zone": {
             "type": "object",
             "properties": {
+              "window_games": {
+                "type": "integer"
+              },
               "carries_in20": {
                 "type": "integer"
               },
@@ -145,15 +148,55 @@
               },
               "share_in5": {
                 "type": "number"
+              },
+              "rz_target_share": {
+                "type": "number"
+              },
+              "rz_carry_share": {
+                "type": "number"
+              },
+              "target_share": {
+                "type": "number"
               }
             },
             "required": [
+              "window_games",
               "carries_in20",
               "carries_in5",
               "targets_in20",
               "targets_in5",
               "share_in20",
-              "share_in5"
+              "share_in5",
+              "rz_target_share",
+              "rz_carry_share",
+              "target_share"
+            ],
+            "additionalProperties": false
+          },
+          "finishing": {
+            "type": "object",
+            "properties": {
+              "window": {
+                "type": "string"
+              },
+              "rz_opps": {
+                "type": "integer"
+              },
+              "rz_tds": {
+                "type": "integer"
+              },
+              "rate": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "window",
+              "rz_opps",
+              "rz_tds",
+              "rate"
             ],
             "additionalProperties": false
           }
@@ -165,7 +208,8 @@
           "pos",
           "aliases",
           "last20",
-          "red_zone"
+          "red_zone",
+          "finishing"
         ],
         "additionalProperties": false
       }
@@ -291,6 +335,101 @@
         ],
         "additionalProperties": false
       }
+    },
+    "league": {
+      "type": "object",
+      "properties": {
+        "rz_td_rate_by_pos": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "number"
+          }
+        },
+        "tds_per_team_game_by_pos": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "number"
+          }
+        },
+        "td_points_share": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "rz_td_rate_by_pos",
+        "tds_per_team_game_by_pos",
+        "td_points_share"
+      ],
+      "additionalProperties": false
+    },
+    "defense_td": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "team": {
+            "$ref": "common.schema.json#/$defs/team"
+          },
+          "pos": {
+            "type": "string"
+          },
+          "tds_per_game": {
+            "type": "number"
+          },
+          "games": {
+            "type": "integer"
+          },
+          "rank": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "team",
+          "pos",
+          "tds_per_game",
+          "games",
+          "rank"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "defense_vs_similar": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "team": {
+            "$ref": "common.schema.json#/$defs/team"
+          },
+          "pos": {
+            "type": "string"
+          },
+          "min_rz_opps": {
+            "type": "integer"
+          },
+          "players": {
+            "type": "integer"
+          },
+          "scored": {
+            "type": "integer"
+          },
+          "examples": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "team",
+          "pos",
+          "min_rz_opps",
+          "players",
+          "scored",
+          "examples"
+        ],
+        "additionalProperties": false
+      }
     }
   },
   "required": [
@@ -301,7 +440,10 @@
     "players",
     "defense",
     "teams",
-    "unmatched"
+    "unmatched",
+    "league",
+    "defense_td",
+    "defense_vs_similar"
   ],
   "additionalProperties": false
 }

@@ -205,6 +205,35 @@
           },
           "kickoff_et": {
             "$ref": "common.schema.json#/$defs/timestamp"
+          },
+          "prices_by_book": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "common.schema.json#/$defs/american_odds"
+            }
+          },
+          "model_check": {
+            "anyOf": [
+              {
+                "$ref": "common.schema.json#/$defs/prob"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "TD opportunity model result, shown next to Dimers for calibration"
+          },
+          "support": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "flags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
           }
         },
         "required": [
@@ -232,7 +261,11 @@
           "hit_freq",
           "streak_note",
           "boards",
-          "kickoff_et"
+          "kickoff_et",
+          "prices_by_book",
+          "model_check",
+          "support",
+          "flags"
         ],
         "additionalProperties": false
       }

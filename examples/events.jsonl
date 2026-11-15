@@ -1,2 +1,6 @@
-{"t": "2026-11-12T19:40:00-05:00", "run_id": "nfl_2026-11-12_thursday", "agent": "manager", "status": "working", "step": "setup", "msg": "Slate: 1 game", "file": "manifest.json"}
-{"t": "2026-11-12T19:40:00-05:00", "run_id": "nfl_2026-11-12_thursday", "agent": "scout", "status": "handoff", "step": "odds", "msg": "34 props, 2 markets", "file": "odds.json"}
+{"t": "2026-11-15T12:22:09-05:00", "run_id": "nfl_2026-11-12_thursday", "agent": "scout", "status": "working", "step": "feed", "msg": "Converting odds feed", "file": null}
+{"t": "2026-11-15T12:22:09-05:00", "run_id": "nfl_2026-11-12_thursday", "agent": "scout", "status": "handoff", "step": "feed", "msg": "6 game lines, 49 props from feed", "file": "odds.json"}
+{"t": "2026-11-15T12:22:10-05:00", "run_id": "nfl_2026-11-12_thursday", "agent": "analyst", "status": "working", "step": "download", "msg": "Loading nflverse data", "file": null}
+{"t": "2026-11-15T12:22:10-05:00", "run_id": "nfl_2026-11-12_thursday", "agent": "analyst", "status": "handoff", "step": "stats", "msg": "25 players matched, 3 unmatched", "file": "stats.json"}
+{"t": "2026-11-15T12:22:11-05:00", "run_id": "nfl_2026-11-12_thursday", "agent": "scorer", "status": "working", "step": "score", "msg": "Scoring bets", "file": null}
+{"t": "2026-11-15T12:22:11-05:00", "run_id": "nfl_2026-11-12_thursday", "agent": "scorer", "status": "handoff", "step": "score", "msg": "45 bets: 0 plus, 1 long shot, 0 anchors", "file": "scored.json"}

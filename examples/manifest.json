@@ -24,51 +24,51 @@
   ],
   "agents": {
     "scout": {
-      "status": "done",
-      "started_at": "2026-11-12T19:40:00-05:00",
-      "finished_at": "2026-11-12T19:40:00-05:00",
+      "status": "pending",
+      "started_at": null,
+      "finished_at": null,
       "output": "odds.json",
       "error": null
     },
     "medic": {
-      "status": "done",
-      "started_at": "2026-11-12T19:40:00-05:00",
-      "finished_at": "2026-11-12T19:40:00-05:00",
+      "status": "pending",
+      "started_at": null,
+      "finished_at": null,
       "output": "injuries.json",
       "error": null
     },
     "oracle": {
-      "status": "done",
-      "started_at": "2026-11-12T19:40:00-05:00",
-      "finished_at": "2026-11-12T19:40:00-05:00",
+      "status": "pending",
+      "started_at": null,
+      "finished_at": null,
       "output": "models.json",
       "error": null
     },
     "analyst": {
-      "status": "done",
-      "started_at": "2026-11-12T19:40:00-05:00",
-      "finished_at": "2026-11-12T19:40:00-05:00",
+      "status": "pending",
+      "started_at": null,
+      "finished_at": null,
       "output": "stats.json",
       "error": null
     },
     "scorer": {
-      "status": "done",
-      "started_at": "2026-11-12T19:40:00-05:00",
-      "finished_at": "2026-11-12T19:40:00-05:00",
+      "status": "pending",
+      "started_at": null,
+      "finished_at": null,
       "output": "scored.json",
       "error": null
     },
     "auditor": {
-      "status": "done",
-      "started_at": "2026-11-12T19:40:00-05:00",
-      "finished_at": "2026-11-12T19:40:00-05:00",
+      "status": "pending",
+      "started_at": null,
+      "finished_at": null,
       "output": "audit.json",
       "error": null
     },
     "publisher": {
-      "status": "done",
-      "started_at": "2026-11-12T19:40:00-05:00",
-      "finished_at": "2026-11-12T19:40:00-05:00",
+      "status": "pending",
+      "started_at": null,
+      "finished_at": null,
       "output": null,
       "error": null
     }
