@@ -1,0 +1,2 @@
+{"t": "2026-11-12T19:40:00-05:00", "run_id": "nfl_2026-11-12_thursday", "agent": "manager", "status": "working", "step": "setup", "msg": "Slate: 1 game", "file": "manifest.json"}
+{"t": "2026-11-12T19:40:00-05:00", "run_id": "nfl_2026-11-12_thursday", "agent": "scout", "status": "handoff", "step": "odds", "msg": "34 props, 2 markets", "file": "odds.json"}

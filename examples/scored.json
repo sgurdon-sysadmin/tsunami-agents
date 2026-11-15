@@ -1,0 +1,58 @@
+{
+  "run_id": "nfl_2026-11-12_thursday",
+  "sport": "nfl",
+  "built_at": "2026-11-12T19:40:00-05:00",
+  "bets": [
+    {
+      "bet_id": "b001",
+      "game_id": "2026_10_WAS_NYG",
+      "section": "anytime_td",
+      "player_id": "00-0037838",
+      "subject": "Isaiah Likely",
+      "team": "NYG",
+      "opp": "WAS",
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "book": "draftkings",
+      "price": 205,
+      "best_price": {
+        "book": "betmgm",
+        "price": 210
+      },
+      "other_side_price": null,
+      "base_pct": 0.332,
+      "hit_method": "model",
+      "method_detail": "Dimers 33.2% (label unconfirmed)",
+      "adjustments": [
+        {
+          "type": "research",
+          "points": 4,
+          "reason": "WAS allows 2nd-most TE TDs; 4/8 NYG inside-5 targets"
+        }
+      ],
+      "hit_pct": 0.372,
+      "implied_pct": 0.328,
+      "edge": 4.4,
+      "hit_freq": {
+        "hits": 5,
+        "games": 20,
+        "expected": 6.6,
+        "small_sample": false
+      },
+      "streak_note": null,
+      "boards": [
+        "plus"
+      ],
+      "kickoff_et": "2026-11-12T20:15:00-05:00"
+    }
+  ],
+  "parlays": [],
+  "near_misses": [
+    {
+      "bet_id": "b001",
+      "missed_by": "n/a",
+      "news_that_changes_it": "n/a"
+    }
+  ]
+}

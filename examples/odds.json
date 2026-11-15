@@ -1,0 +1,101 @@
+{
+  "run_id": "nfl_2026-11-12_thursday",
+  "sport": "nfl",
+  "written_at": "2026-11-12T19:40:00-05:00",
+  "feed": {
+    "fetched_at": "2026-11-13T00:04:11Z",
+    "age_minutes": 36,
+    "stale": false,
+    "games_missing": [],
+    "markets_in_feed": [
+      "player_anytime_td",
+      "player_tds_over"
+    ]
+  },
+  "game_lines": [
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "book": "draftkings",
+      "market": "spreads",
+      "side": "NYG",
+      "team": null,
+      "point": -1.5,
+      "price": -110,
+      "label": null,
+      "source": {
+        "name": "tsunami-odds feed",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-12T19:40:00-05:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "book": "draftkings",
+      "market": "totals",
+      "side": "over",
+      "team": null,
+      "point": 40.5,
+      "price": -115,
+      "label": null,
+      "source": {
+        "name": "tsunami-odds feed",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-12T19:40:00-05:00",
+        "verbatim": true
+      }
+    }
+  ],
+  "props": [
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Isaiah Likely",
+      "team": "NYG",
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "price": 205,
+      "book": "draftkings",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-12T19:40:00-05:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Austin Ekeler",
+      "team": "WAS",
+      "market": "player_rush_yds",
+      "side": "over",
+      "line": 29.5,
+      "price": -113,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "ScoresAndOdds rushing props",
+        "url": "https://www.scoresandodds.com/nfl/props/rushing-yards",
+        "fetched_at": "2026-11-12T19:40:00-05:00",
+        "verbatim": true
+      }
+    }
+  ],
+  "lines_needed": [
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Isaiah Likely",
+      "markets": [
+        "player_2nd_half_td"
+      ],
+      "reason": "5 of 6 TDs in 2H",
+      "sources_tried": [
+        "odds feed",
+        "ScoresAndOdds",
+        "DK Network"
+      ]
+    }
+  ],
+  "failures": []
+}

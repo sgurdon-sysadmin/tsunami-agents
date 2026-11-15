@@ -1,0 +1,71 @@
+{
+  "run_id": "nfl_2026-11-12_thursday",
+  "sport": "nfl",
+  "built_at": "2026-11-12T19:40:00-05:00",
+  "data_through": {
+    "season": 2026,
+    "week": 9
+  },
+  "players": [
+    {
+      "player_id": "00-0037838",
+      "player_name": "Isaiah Likely",
+      "team": "NYG",
+      "pos": "TE",
+      "aliases": [
+        "I.Likely"
+      ],
+      "last20": [
+        {
+          "season": 2026,
+          "week": 9,
+          "opp": "PHI",
+          "pass_yds": 0,
+          "rush_yds": 0,
+          "rec_yds": 53,
+          "receptions": 4,
+          "targets": 7,
+          "carries": 0,
+          "tds": 1,
+          "tds_1h": 0,
+          "tds_2h": 1,
+          "scored_team_first_td": true
+        }
+      ],
+      "red_zone": {
+        "carries_in20": 0,
+        "carries_in5": 0,
+        "targets_in20": 11,
+        "targets_in5": 4,
+        "share_in20": 0.367,
+        "share_in5": 0.5
+      }
+    }
+  ],
+  "defense": [
+    {
+      "team": "WAS",
+      "pos": "TE",
+      "stat": "receiving_tds",
+      "per_game": 1.0,
+      "total": 8,
+      "games": 8,
+      "rank": 2,
+      "tied": false
+    }
+  ],
+  "teams": [
+    {
+      "team": "NYG",
+      "first_td_rate_this": 0.375,
+      "first_td_rate_last": 0.588,
+      "pts_1q_for": 4.5,
+      "pts_1q_against": 4.75,
+      "pts_1h_for": 9.75,
+      "pts_1h_against": 10.25,
+      "pts_2h_for": 13.0,
+      "pts_2h_against": 11.25
+    }
+  ],
+  "unmatched": []
+}

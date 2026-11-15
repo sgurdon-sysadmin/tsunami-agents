@@ -1,0 +1,73 @@
+{
+  "run_id": "nfl_2026-11-12_thursday",
+  "sport": "nfl",
+  "written_at": "2026-11-12T19:40:00-05:00",
+  "starters": [
+    {
+      "team": "NYG",
+      "pos": "QB",
+      "player_name": "J.J. McCarthy",
+      "confirmed": true,
+      "note": "Jaxson Dart out for season"
+    }
+  ],
+  "players": [
+    {
+      "player_name": "Terry McLaurin",
+      "team": "WAS",
+      "pos": "WR",
+      "status": "ir",
+      "injury": "season-ending",
+      "practice": [],
+      "game_day_inactive": true,
+      "source": {
+        "name": "DK Network",
+        "url": null,
+        "fetched_at": "2026-11-12T19:40:00-05:00",
+        "verbatim": true
+      }
+    },
+    {
+      "player_name": "Treylon Burks",
+      "team": "WAS",
+      "pos": "WR",
+      "status": "active",
+      "injury": null,
+      "practice": [
+        "DNP",
+        "LP",
+        "DNP"
+      ],
+      "game_day_inactive": null,
+      "source": {
+        "name": "SportsBettingDime",
+        "url": null,
+        "fetched_at": "2026-11-12T19:40:00-05:00",
+        "verbatim": true
+      }
+    }
+  ],
+  "volume_shifts": [
+    {
+      "team": "WAS",
+      "out_player": "Terry McLaurin",
+      "beneficiaries": [
+        {
+          "player_name": "Stefon Diggs",
+          "role": "red_zone",
+          "boost_points": 2
+        }
+      ],
+      "reason": "WR1 out; Diggs leads team in RZ targets"
+    }
+  ],
+  "transactions": [],
+  "external": [],
+  "failures": [
+    {
+      "source": "Hogs Haven",
+      "url": null,
+      "error": "robots.txt disallowed"
+    }
+  ]
+}

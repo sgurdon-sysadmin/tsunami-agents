@@ -1,0 +1,41 @@
+{
+  "run_id": "nfl_2026-11-12_thursday",
+  "sport": "nfl",
+  "written_at": "2026-11-12T19:40:00-05:00",
+  "game_models": [
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "source": "dimers",
+      "win_prob_home": 0.571,
+      "win_prob_away": 0.429,
+      "proj_home_pts": 21,
+      "proj_away_pts": 20,
+      "url": "https://www.dimers.com/nfl/predictions/2026_10_nyg_was"
+    }
+  ],
+  "player_models": [
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Isaiah Likely",
+      "team": "NYG",
+      "source": "dimers",
+      "stat": "anytime_td",
+      "value_type": "probability",
+      "value": 0.332,
+      "label_confirmed": false,
+      "url": null
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Austin Ekeler",
+      "team": "WAS",
+      "source": "scoresandodds",
+      "stat": "rush_yds",
+      "value_type": "projection",
+      "value": 37,
+      "label_confirmed": true,
+      "url": null
+    }
+  ],
+  "failures": []
+}
