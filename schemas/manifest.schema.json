@@ -1,0 +1,145 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "manifest.schema.json",
+  "title": "manifest",
+  "description": "Written by the Manager at the start of a run and updated as agents finish. One per run folder.",
+  "type": "object",
+  "properties": {
+    "run_id": {
+      "$ref": "common.schema.json#/$defs/run_id"
+    },
+    "sport": {
+      "$ref": "common.schema.json#/$defs/sport"
+    },
+    "season": {
+      "type": "integer"
+    },
+    "week": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "slate": {
+      "type": "string"
+    },
+    "run_type": {
+      "enum": [
+        "scheduled",
+        "on_demand"
+      ]
+    },
+    "created_at": {
+      "$ref": "common.schema.json#/$defs/timestamp"
+    },
+    "games": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "game_id": {
+            "$ref": "common.schema.json#/$defs/game_id"
+          },
+          "away": {
+            "$ref": "common.schema.json#/$defs/team"
+          },
+          "home": {
+            "$ref": "common.schema.json#/$defs/team"
+          },
+          "kickoff_et": {
+            "$ref": "common.schema.json#/$defs/timestamp"
+          },
+          "venue": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "scheduled",
+              "in_progress",
+              "final",
+              "postponed"
+            ]
+          }
+        },
+        "required": [
+          "game_id",
+          "away",
+          "home",
+          "kickoff_et",
+          "venue",
+          "status"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "byes": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/team"
+      }
+    },
+    "agents": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "status": {
+            "$ref": "common.schema.json#/$defs/agent_status"
+          },
+          "started_at": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "finished_at": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "output": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "error": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "status",
+          "started_at",
+          "finished_at",
+          "output",
+          "error"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "run_id",
+    "sport",
+    "season",
+    "week",
+    "slate",
+    "run_type",
+    "created_at",
+    "games",
+    "byes",
+    "agents",
+    "notes"
+  ],
+  "additionalProperties": false
+}

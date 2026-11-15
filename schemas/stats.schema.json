@@ -1,0 +1,307 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "stats.schema.json",
+  "title": "stats",
+  "description": "Written by analyst.py (code, not an agent). This is the ONLY place player names become player_ids; ambiguous names go to unmatched, never guessed.",
+  "type": "object",
+  "properties": {
+    "run_id": {
+      "$ref": "common.schema.json#/$defs/run_id"
+    },
+    "sport": {
+      "$ref": "common.schema.json#/$defs/sport"
+    },
+    "built_at": {
+      "$ref": "common.schema.json#/$defs/timestamp"
+    },
+    "data_through": {
+      "type": "object",
+      "properties": {
+        "season": {
+          "type": "integer"
+        },
+        "week": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "season",
+        "week"
+      ],
+      "additionalProperties": false
+    },
+    "players": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "player_id": {
+            "type": "string"
+          },
+          "player_name": {
+            "type": "string"
+          },
+          "team": {
+            "$ref": "common.schema.json#/$defs/team"
+          },
+          "pos": {
+            "type": "string"
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "last20": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "season": {
+                  "type": "integer"
+                },
+                "week": {
+                  "type": "integer"
+                },
+                "opp": {
+                  "type": "string"
+                },
+                "pass_yds": {
+                  "type": "number"
+                },
+                "rush_yds": {
+                  "type": "number"
+                },
+                "rec_yds": {
+                  "type": "number"
+                },
+                "receptions": {
+                  "type": "number"
+                },
+                "targets": {
+                  "type": "number"
+                },
+                "carries": {
+                  "type": "number"
+                },
+                "tds": {
+                  "type": "number"
+                },
+                "tds_1h": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ]
+                },
+                "tds_2h": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ]
+                },
+                "scored_team_first_td": {
+                  "type": [
+                    "boolean",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "season",
+                "week",
+                "opp",
+                "pass_yds",
+                "rush_yds",
+                "rec_yds",
+                "receptions",
+                "targets",
+                "carries",
+                "tds",
+                "tds_1h",
+                "tds_2h",
+                "scored_team_first_td"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "red_zone": {
+            "type": "object",
+            "properties": {
+              "carries_in20": {
+                "type": "integer"
+              },
+              "carries_in5": {
+                "type": "integer"
+              },
+              "targets_in20": {
+                "type": "integer"
+              },
+              "targets_in5": {
+                "type": "integer"
+              },
+              "share_in20": {
+                "type": "number"
+              },
+              "share_in5": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "carries_in20",
+              "carries_in5",
+              "targets_in20",
+              "targets_in5",
+              "share_in20",
+              "share_in5"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "player_id",
+          "player_name",
+          "team",
+          "pos",
+          "aliases",
+          "last20",
+          "red_zone"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "defense": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "team": {
+            "$ref": "common.schema.json#/$defs/team"
+          },
+          "pos": {
+            "type": "string"
+          },
+          "stat": {
+            "type": "string"
+          },
+          "per_game": {
+            "type": "number"
+          },
+          "total": {
+            "type": "number"
+          },
+          "games": {
+            "type": "integer"
+          },
+          "rank": {
+            "type": "integer"
+          },
+          "tied": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "team",
+          "pos",
+          "stat",
+          "per_game",
+          "total",
+          "games",
+          "rank",
+          "tied"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "teams": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "team": {
+            "$ref": "common.schema.json#/$defs/team"
+          },
+          "first_td_rate_this": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "first_td_rate_last": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "pts_1q_for": {
+            "type": "number"
+          },
+          "pts_1q_against": {
+            "type": "number"
+          },
+          "pts_1h_for": {
+            "type": "number"
+          },
+          "pts_1h_against": {
+            "type": "number"
+          },
+          "pts_2h_for": {
+            "type": "number"
+          },
+          "pts_2h_against": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "team",
+          "first_td_rate_this",
+          "first_td_rate_last",
+          "pts_1q_for",
+          "pts_1q_against",
+          "pts_1h_for",
+          "pts_1h_against",
+          "pts_2h_for",
+          "pts_2h_against"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "unmatched": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "player_name": {
+            "type": "string"
+          },
+          "team": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "reason": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "player_name",
+          "team",
+          "reason"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "run_id",
+    "sport",
+    "built_at",
+    "data_through",
+    "players",
+    "defense",
+    "teams",
+    "unmatched"
+  ],
+  "additionalProperties": false
+}

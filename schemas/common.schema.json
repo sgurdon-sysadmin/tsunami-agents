@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "common.schema.json",
+  "title": "common",
+  "$defs": {
+    "sport": {
+      "enum": [
+        "nfl",
+        "nba"
+      ]
+    },
+    "run_id": {
+      "type": "string",
+      "pattern": "^(nfl|nba)_\\d{4}-\\d{2}-\\d{2}_[a-z0-9_]+$",
+      "description": "e.g. nfl_2026-11-15_sunday"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 with offset, e.g. 2026-11-15T09:30:00-05:00"
+    },
+    "team": {
+      "type": "string",
+      "pattern": "^[A-Z]{2,3}$",
+      "description": "nflverse / NBA abbreviation, e.g. NYG, LA, LV"
+    },
+    "game_id": {
+      "type": "string",
+      "pattern": "^(\\d{4}_\\d{2}_[A-Z]{2,3}_[A-Z]{2,3}|\\d{8}_[A-Z]{2,3}_[A-Z]{2,3})$",
+      "description": "NFL: season_week_AWAY_HOME (nflverse), e.g. 2026_10_WAS_NYG. NBA: YYYYMMDD_AWAY_HOME."
+    },
+    "book": {
+      "enum": [
+        "draftkings",
+        "fanduel",
+        "betmgm",
+        "caesars",
+        "espnbet",
+        "fanatics",
+        "bet365",
+        "hardrockbet",
+        "user_provided"
+      ],
+      "description": "Sportsbooks only. Prediction markets and exchanges (Kalshi, Polymarket, Novig...) are not allowed."
+    },
+    "american_odds": {
+      "type": "integer",
+      "anyOf": [
+        {
+          "minimum": 100
+        },
+        {
+          "maximum": -100
+        }
+      ]
+    },
+    "prob": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "fetched_at": {
+          "$ref": "common.schema.json#/$defs/timestamp"
+        },
+        "verbatim": {
+          "type": "boolean",
+          "description": "true = number copied from page text; false = from a summary or unlabeled table (treat as unverified)"
+        }
+      },
+      "required": [
+        "name",
+        "url",
+        "fetched_at",
+        "verbatim"
+      ],
+      "additionalProperties": false
+    },
+    "agent_status": {
+      "enum": [
+        "pending",
+        "running",
+        "done",
+        "failed",
+        "skipped"
+      ]
+    }
+  }
+}
