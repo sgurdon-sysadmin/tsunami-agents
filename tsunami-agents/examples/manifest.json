@@ -1,0 +1,79 @@
+{
+  "run_id": "nfl_2026-11-12_thursday",
+  "sport": "nfl",
+  "season": 2026,
+  "week": 10,
+  "slate": "thursday",
+  "run_type": "scheduled",
+  "created_at": "2026-11-12T19:40:00-05:00",
+  "games": [
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "away": "WAS",
+      "home": "NYG",
+      "kickoff_et": "2026-11-12T20:15:00-05:00",
+      "venue": "MetLife Stadium",
+      "status": "scheduled"
+    }
+  ],
+  "byes": [
+    "CHI",
+    "DEN",
+    "PHI",
+    "TB"
+  ],
+  "agents": {
+    "scout": {
+      "status": "pending",
+      "started_at": null,
+      "finished_at": null,
+      "output": "odds.json",
+      "error": null
+    },
+    "medic": {
+      "status": "pending",
+      "started_at": null,
+      "finished_at": null,
+      "output": "injuries.json",
+      "error": null
+    },
+    "oracle": {
+      "status": "pending",
+      "started_at": null,
+      "finished_at": null,
+      "output": "models.json",
+      "error": null
+    },
+    "analyst": {
+      "status": "pending",
+      "started_at": null,
+      "finished_at": null,
+      "output": "stats.json",
+      "error": null
+    },
+    "scorer": {
+      "status": "pending",
+      "started_at": null,
+      "finished_at": null,
+      "output": "scored.json",
+      "error": null
+    },
+    "auditor": {
+      "status": "pending",
+      "started_at": null,
+      "finished_at": null,
+      "output": "audit.json",
+      "error": null
+    },
+    "publisher": {
+      "status": "pending",
+      "started_at": null,
+      "finished_at": null,
+      "output": null,
+      "error": null
+    }
+  },
+  "notes": [
+    "Hogs Haven inactives page blocked (robots)."
+  ]
+}

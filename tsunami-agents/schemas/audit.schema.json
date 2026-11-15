@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "audit.schema.json",
+  "title": "audit",
+  "description": "Written by the Auditor. 'block' flags remove the bet before publishing; 'warn' flags print next to it.",
+  "type": "object",
+  "properties": {
+    "run_id": {
+      "$ref": "common.schema.json#/$defs/run_id"
+    },
+    "written_at": {
+      "$ref": "common.schema.json#/$defs/timestamp"
+    },
+    "checks_run": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "flags": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "flag_id": {
+            "type": "string"
+          },
+          "severity": {
+            "enum": [
+              "block",
+              "warn",
+              "info"
+            ]
+          },
+          "bet_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "player_name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "check": {
+            "enum": [
+              "wrong_team",
+              "player_out_with_prop",
+              "stale_line",
+              "projection_conflict",
+              "price_mismatch",
+              "banned_source",
+              "small_sample",
+              "missing_pair",
+              "duplicate",
+              "other"
+            ]
+          },
+          "detail": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "action": {
+            "enum": [
+              "drop_bet",
+              "keep_with_warning",
+              "recheck_price",
+              "none"
+            ]
+          }
+        },
+        "required": [
+          "flag_id",
+          "severity",
+          "bet_id",
+          "player_name",
+          "check",
+          "detail",
+          "evidence",
+          "action"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "summary": {
+      "type": "object",
+      "properties": {
+        "blocked": {
+          "type": "integer"
+        },
+        "warned": {
+          "type": "integer"
+        },
+        "info": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "blocked",
+        "warned",
+        "info"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "run_id",
+    "written_at",
+    "checks_run",
+    "flags",
+    "summary"
+  ],
+  "additionalProperties": false
+}

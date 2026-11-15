@@ -1,0 +1,1219 @@
+{
+  "run_id": "nfl_2026-11-12_thursday",
+  "sport": "nfl",
+  "written_at": "2026-11-15T12:22:09-05:00",
+  "feed": {
+    "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+    "age_minutes": 36,
+    "stale": false,
+    "games_missing": [],
+    "markets_in_feed": [
+      "player_anytime_td",
+      "player_tds_over"
+    ]
+  },
+  "game_lines": [
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "book": "fanduel",
+      "market": "h2h",
+      "side": "NYG",
+      "team": null,
+      "point": null,
+      "price": -118,
+      "label": null,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "book": "fanduel",
+      "market": "h2h",
+      "side": "WAS",
+      "team": null,
+      "point": null,
+      "price": 100,
+      "label": null,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "book": "fanduel",
+      "market": "spreads",
+      "side": "NYG",
+      "team": null,
+      "point": -1.5,
+      "price": -105,
+      "label": null,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "book": "fanduel",
+      "market": "spreads",
+      "side": "WAS",
+      "team": null,
+      "point": 1.5,
+      "price": -115,
+      "label": null,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "book": "fanduel",
+      "market": "totals",
+      "side": "over",
+      "team": null,
+      "point": 40.5,
+      "price": -115,
+      "label": null,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "book": "fanduel",
+      "market": "totals",
+      "side": "under",
+      "team": null,
+      "point": 40.5,
+      "price": -105,
+      "label": null,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    }
+  ],
+  "props": [
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Cam Skattebo",
+      "team": null,
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "price": 130,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Rachaad White",
+      "team": null,
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "price": 175,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Malik Nabers",
+      "team": null,
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "price": 175,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Isaiah Likely",
+      "team": null,
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "price": 200,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Stefon Diggs",
+      "team": null,
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "price": 230,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Jayden Daniels",
+      "team": null,
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "price": 270,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Devin Singletary",
+      "team": null,
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "price": 280,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Austin Ekeler",
+      "team": null,
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "price": 330,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Treylon Burks",
+      "team": null,
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "price": 340,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Chig Okonkwo",
+      "team": null,
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "price": 370,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Antonio Williams",
+      "team": null,
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "price": 400,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Malachi Fields",
+      "team": null,
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "price": 470,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "J.J. McCarthy",
+      "team": null,
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "price": 490,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Washington Commanders Defense",
+      "team": null,
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "price": 750,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "New York Giants Defense",
+      "team": null,
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "price": 800,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Darnell Mooney",
+      "team": null,
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "price": 850,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Van Jefferson",
+      "team": null,
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "price": 850,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Theo Johnson",
+      "team": null,
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "price": 900,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Luke McCaffrey",
+      "team": null,
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "price": 1300,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "John Bates",
+      "team": null,
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "price": 1500,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Jalin Hyatt",
+      "team": null,
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "price": 1900,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Charlie Jones",
+      "team": null,
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "price": 2000,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Ben Sinnott",
+      "team": null,
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "price": 2000,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Greg Desrosiers Jr.",
+      "team": null,
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "price": 2000,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Robert Henry Jr.",
+      "team": null,
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "price": 2700,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Patrick Ricard",
+      "team": null,
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "price": 3300,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Chris Manhertz",
+      "team": null,
+      "market": "player_anytime_td",
+      "side": "yes",
+      "line": null,
+      "price": 3500,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Cam Skattebo",
+      "team": null,
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 1.5,
+      "price": 950,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Malik Nabers",
+      "team": null,
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 1.5,
+      "price": 1400,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Rachaad White",
+      "team": null,
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 1.5,
+      "price": 1400,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Isaiah Likely",
+      "team": null,
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 1.5,
+      "price": 1800,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Stefon Diggs",
+      "team": null,
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 1.5,
+      "price": 2200,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Jayden Daniels",
+      "team": null,
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 1.5,
+      "price": 2700,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Devin Singletary",
+      "team": null,
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 1.5,
+      "price": 2700,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Austin Ekeler",
+      "team": null,
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 1.5,
+      "price": 3000,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Treylon Burks",
+      "team": null,
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 1.5,
+      "price": 3500,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Chig Okonkwo",
+      "team": null,
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 1.5,
+      "price": 4500,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Antonio Williams",
+      "team": null,
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 1.5,
+      "price": 5000,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Malachi Fields",
+      "team": null,
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 1.5,
+      "price": 6000,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "J.J. McCarthy",
+      "team": null,
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 1.5,
+      "price": 6500,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Washington Commanders Defense",
+      "team": null,
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 1.5,
+      "price": 10000,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "New York Giants Defense",
+      "team": null,
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 1.5,
+      "price": 10000,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Van Jefferson",
+      "team": null,
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 1.5,
+      "price": 12500,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Theo Johnson",
+      "team": null,
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 1.5,
+      "price": 12500,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Darnell Mooney",
+      "team": null,
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 1.5,
+      "price": 15000,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Cam Skattebo",
+      "team": null,
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 2.5,
+      "price": 5500,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Rachaad White",
+      "team": null,
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 2.5,
+      "price": 10000,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Malik Nabers",
+      "team": null,
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 2.5,
+      "price": 10000,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Isaiah Likely",
+      "team": null,
+      "market": "player_tds_over",
+      "side": "over",
+      "line": 2.5,
+      "price": 15000,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "tsunami-odds feed (The Odds API)",
+        "url": "https://github.com/sgurdon-sysadmin/tsunami-odds",
+        "fetched_at": "2026-11-13T00:04:11.960084+00:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "J.J. McCarthy",
+      "team": "NYG",
+      "market": "player_pass_yds",
+      "side": "under",
+      "line": 211.5,
+      "price": -111,
+      "book": "draftkings",
+      "alt": false,
+      "source": {
+        "name": "ScoresAndOdds props",
+        "url": "https://www.scoresandodds.com/nfl/props/rushing-yards",
+        "fetched_at": "2026-11-12T19:40:00-05:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "J.J. McCarthy",
+      "team": "NYG",
+      "market": "player_pass_yds",
+      "side": "over",
+      "line": 204.5,
+      "price": -115,
+      "book": "bet365",
+      "alt": false,
+      "source": {
+        "name": "ScoresAndOdds props",
+        "url": "https://www.scoresandodds.com/nfl/props/rushing-yards",
+        "fetched_at": "2026-11-12T19:40:00-05:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Jayden Daniels",
+      "team": "WAS",
+      "market": "player_pass_yds",
+      "side": "over",
+      "line": 201.5,
+      "price": 100,
+      "book": "betmgm",
+      "alt": false,
+      "source": {
+        "name": "ScoresAndOdds props",
+        "url": "https://www.scoresandodds.com/nfl/props/rushing-yards",
+        "fetched_at": "2026-11-12T19:40:00-05:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Jayden Daniels",
+      "team": "WAS",
+      "market": "player_rush_yds",
+      "side": "over",
+      "line": 37.5,
+      "price": -111,
+      "book": "draftkings",
+      "alt": false,
+      "source": {
+        "name": "ScoresAndOdds props",
+        "url": "https://www.scoresandodds.com/nfl/props/rushing-yards",
+        "fetched_at": "2026-11-12T19:40:00-05:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Rachaad White",
+      "team": "WAS",
+      "market": "player_rush_yds",
+      "side": "over",
+      "line": 35.5,
+      "price": -140,
+      "book": "fanatics",
+      "alt": false,
+      "source": {
+        "name": "ScoresAndOdds props",
+        "url": "https://www.scoresandodds.com/nfl/props/rushing-yards",
+        "fetched_at": "2026-11-12T19:40:00-05:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Cam Skattebo",
+      "team": "NYG",
+      "market": "player_rush_yds",
+      "side": "under",
+      "line": 64.5,
+      "price": -115,
+      "book": "hardrockbet",
+      "alt": false,
+      "source": {
+        "name": "ScoresAndOdds props",
+        "url": "https://www.scoresandodds.com/nfl/props/rushing-yards",
+        "fetched_at": "2026-11-12T19:40:00-05:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Devin Singletary",
+      "team": "NYG",
+      "market": "player_rush_yds",
+      "side": "over",
+      "line": 23.5,
+      "price": -108,
+      "book": "draftkings",
+      "alt": false,
+      "source": {
+        "name": "ScoresAndOdds props",
+        "url": "https://www.scoresandodds.com/nfl/props/rushing-yards",
+        "fetched_at": "2026-11-12T19:40:00-05:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Austin Ekeler",
+      "team": "WAS",
+      "market": "player_rush_yds",
+      "side": "over",
+      "line": 29.5,
+      "price": -113,
+      "book": "fanduel",
+      "alt": false,
+      "source": {
+        "name": "ScoresAndOdds props",
+        "url": "https://www.scoresandodds.com/nfl/props/rushing-yards",
+        "fetched_at": "2026-11-12T19:40:00-05:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Malik Nabers",
+      "team": "NYG",
+      "market": "player_reception_yds",
+      "side": "over",
+      "line": 63.5,
+      "price": -115,
+      "book": "bet365",
+      "alt": false,
+      "source": {
+        "name": "ScoresAndOdds props",
+        "url": "https://www.scoresandodds.com/nfl/props/rushing-yards",
+        "fetched_at": "2026-11-12T19:40:00-05:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Isaiah Likely",
+      "team": "NYG",
+      "market": "player_reception_yds",
+      "side": "over",
+      "line": 45.5,
+      "price": -113,
+      "book": "draftkings",
+      "alt": false,
+      "source": {
+        "name": "ScoresAndOdds props",
+        "url": "https://www.scoresandodds.com/nfl/props/rushing-yards",
+        "fetched_at": "2026-11-12T19:40:00-05:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Stefon Diggs",
+      "team": "WAS",
+      "market": "player_reception_yds",
+      "side": "over",
+      "line": 35.5,
+      "price": -125,
+      "book": "fanatics",
+      "alt": false,
+      "source": {
+        "name": "ScoresAndOdds props",
+        "url": "https://www.scoresandodds.com/nfl/props/rushing-yards",
+        "fetched_at": "2026-11-12T19:40:00-05:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Antonio Williams",
+      "team": "WAS",
+      "market": "player_reception_yds",
+      "side": "over",
+      "line": 38.5,
+      "price": -110,
+      "book": "draftkings",
+      "alt": false,
+      "source": {
+        "name": "ScoresAndOdds props",
+        "url": "https://www.scoresandodds.com/nfl/props/rushing-yards",
+        "fetched_at": "2026-11-12T19:40:00-05:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Chig Okonkwo",
+      "team": "WAS",
+      "market": "player_reception_yds",
+      "side": "over",
+      "line": 32.5,
+      "price": -135,
+      "book": "betmgm",
+      "alt": false,
+      "source": {
+        "name": "ScoresAndOdds props",
+        "url": "https://www.scoresandodds.com/nfl/props/rushing-yards",
+        "fetched_at": "2026-11-12T19:40:00-05:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Malik Nabers",
+      "team": "NYG",
+      "market": "player_receptions",
+      "side": "over",
+      "line": 5.5,
+      "price": -141,
+      "book": "caesars",
+      "alt": false,
+      "source": {
+        "name": "ScoresAndOdds props",
+        "url": "https://www.scoresandodds.com/nfl/props/rushing-yards",
+        "fetched_at": "2026-11-12T19:40:00-05:00",
+        "verbatim": true
+      }
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Malik Nabers",
+      "team": "NYG",
+      "market": "player_receptions",
+      "side": "under",
+      "line": 5.5,
+      "price": 111,
+      "book": "caesars",
+      "alt": false,
+      "source": {
+        "name": "ScoresAndOdds props",
+        "url": "https://www.scoresandodds.com/nfl/props/rushing-yards",
+        "fetched_at": "2026-11-12T19:40:00-05:00",
+        "verbatim": true
+      }
+    }
+  ],
+  "lines_needed": [
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_name": "Isaiah Likely",
+      "markets": [
+        "player_2nd_half_td"
+      ],
+      "reason": "5 of 6 TDs in 2H",
+      "sources_tried": [
+        "odds feed",
+        "ScoresAndOdds",
+        "DK Network"
+      ]
+    }
+  ],
+  "failures": []
+}

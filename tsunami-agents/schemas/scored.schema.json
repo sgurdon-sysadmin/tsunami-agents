@@ -1,0 +1,351 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "scored.schema.json",
+  "title": "scored",
+  "description": "Written by scorer.py (code). Every number here is computed, never typed by an agent.",
+  "type": "object",
+  "properties": {
+    "run_id": {
+      "$ref": "common.schema.json#/$defs/run_id"
+    },
+    "sport": {
+      "$ref": "common.schema.json#/$defs/sport"
+    },
+    "built_at": {
+      "$ref": "common.schema.json#/$defs/timestamp"
+    },
+    "bets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "bet_id": {
+            "type": "string"
+          },
+          "game_id": {
+            "$ref": "common.schema.json#/$defs/game_id"
+          },
+          "section": {
+            "enum": [
+              "game_specials",
+              "anytime_td",
+              "multi_td",
+              "passing_yds",
+              "rush_rec_yds",
+              "combos",
+              "pra",
+              "pa",
+              "pr",
+              "threes"
+            ]
+          },
+          "player_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "subject": {
+            "type": "string",
+            "description": "Player name, team name, or 'Game'"
+          },
+          "team": {
+            "anyOf": [
+              {
+                "$ref": "common.schema.json#/$defs/team"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "opp": {
+            "anyOf": [
+              {
+                "$ref": "common.schema.json#/$defs/team"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "market": {
+            "type": "string"
+          },
+          "side": {
+            "type": "string"
+          },
+          "line": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "book": {
+            "$ref": "common.schema.json#/$defs/book"
+          },
+          "price": {
+            "$ref": "common.schema.json#/$defs/american_odds"
+          },
+          "best_price": {
+            "type": "object",
+            "properties": {
+              "book": {
+                "$ref": "common.schema.json#/$defs/book"
+              },
+              "price": {
+                "$ref": "common.schema.json#/$defs/american_odds"
+              }
+            },
+            "required": [
+              "book",
+              "price"
+            ],
+            "additionalProperties": false
+          },
+          "other_side_price": {
+            "anyOf": [
+              {
+                "$ref": "common.schema.json#/$defs/american_odds"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "base_pct": {
+            "$ref": "common.schema.json#/$defs/prob"
+          },
+          "hit_method": {
+            "enum": [
+              "model",
+              "no_vig",
+              "estimate"
+            ]
+          },
+          "method_detail": {
+            "type": "string"
+          },
+          "adjustments": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "enum": [
+                    "research",
+                    "injury",
+                    "external"
+                  ]
+                },
+                "points": {
+                  "type": "number"
+                },
+                "reason": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "type",
+                "points",
+                "reason"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "hit_pct": {
+            "$ref": "common.schema.json#/$defs/prob"
+          },
+          "implied_pct": {
+            "$ref": "common.schema.json#/$defs/prob"
+          },
+          "edge": {
+            "type": "number",
+            "description": "hit_pct - implied_pct, in percentage points"
+          },
+          "hit_freq": {
+            "type": "object",
+            "properties": {
+              "hits": {
+                "type": "integer"
+              },
+              "games": {
+                "type": "integer"
+              },
+              "expected": {
+                "type": "number"
+              },
+              "small_sample": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "hits",
+              "games",
+              "expected",
+              "small_sample"
+            ],
+            "additionalProperties": false
+          },
+          "streak_note": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "boards": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "plus",
+                "long_shot",
+                "anchor"
+              ]
+            }
+          },
+          "kickoff_et": {
+            "$ref": "common.schema.json#/$defs/timestamp"
+          },
+          "prices_by_book": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "common.schema.json#/$defs/american_odds"
+            }
+          },
+          "model_check": {
+            "anyOf": [
+              {
+                "$ref": "common.schema.json#/$defs/prob"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "TD opportunity model result, shown next to Dimers for calibration"
+          },
+          "support": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "flags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "bet_id",
+          "game_id",
+          "section",
+          "player_id",
+          "subject",
+          "team",
+          "opp",
+          "market",
+          "side",
+          "line",
+          "book",
+          "price",
+          "best_price",
+          "other_side_price",
+          "base_pct",
+          "hit_method",
+          "method_detail",
+          "adjustments",
+          "hit_pct",
+          "implied_pct",
+          "edge",
+          "hit_freq",
+          "streak_note",
+          "boards",
+          "kickoff_et",
+          "prices_by_book",
+          "model_check",
+          "support",
+          "flags"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "parlays": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "slot": {
+            "type": "string"
+          },
+          "legs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "book": {
+            "$ref": "common.schema.json#/$defs/book"
+          },
+          "combined_hit_pct": {
+            "$ref": "common.schema.json#/$defs/prob"
+          },
+          "decimal_odds": {
+            "type": "number"
+          },
+          "american_odds": {
+            "$ref": "common.schema.json#/$defs/american_odds"
+          },
+          "correlation_note": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "slot",
+          "legs",
+          "book",
+          "combined_hit_pct",
+          "decimal_odds",
+          "american_odds",
+          "correlation_note"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "near_misses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "bet_id": {
+            "type": "string"
+          },
+          "missed_by": {
+            "type": "string"
+          },
+          "news_that_changes_it": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "bet_id",
+          "missed_by",
+          "news_that_changes_it"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "run_id",
+    "sport",
+    "built_at",
+    "bets",
+    "parlays",
+    "near_misses"
+  ],
+  "additionalProperties": false
+}
